@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Digital Talent | CV Skill Match</title>
+<style>
+:root { font-family: system-ui, sans-serif; color: #142e2b; background: #f1f5ef; line-height: 1.5; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 1080px; padding: 52px 24px; margin: auto; }
+header { max-width: 720px; margin-bottom: 30px; }
+h1 { font-family: Georgia, serif; font-size: clamp(2.6rem, 7vw, 5rem); line-height: 1; margin: 10px 0 16px; font-weight: 500; }
+h2 { margin: 0 0 16px; font-size: 1.3rem; }
+small, p { color: #465e58; }
+header strong { text-transform: uppercase; font-size: .78rem; letter-spacing: .15em; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: start; }
+.card { padding: clamp(18px, 4vw, 32px); background: white; border: 1px solid #cad9cf; border-radius: 18px; }
+label { display: block; font-weight: 650; margin-top: 14px; }
+select, textarea { font: inherit; color: inherit; background: #f8faf7; border: 1px solid #829b90; border-radius: 8px; padding: 10px 12px; width: 100%; margin-top: 5px; }
+textarea { resize: vertical; min-height: 145px; }
+.actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 18px; }
+button { font: inherit; font-weight: 650; background: #174e41; border: 1px solid #174e41; color: white; border-radius: 8px; padding: 10px 14px; cursor: pointer; }
+button.secondary { background: white; color: #174e41; }
+:focus-visible { outline: 3px solid #276cba; outline-offset: 3px; }
+.score { display: block; font-size: 3.5rem; font-weight: 700; letter-spacing: -.06em; line-height: 1; }
+meter { width: 100%; height: 12px; margin-top: 10px; }
+ul { padding: 0; list-style: none; }
+li { padding: 9px 0; border-top: 1px solid #dce6de; overflow-wrap: anywhere; }
+li small { display: block; }
+.research { max-width: 760px; margin-top: 24px; }
+.research h2 { margin-bottom: 6px; }
+.research p { margin: 0; }
+.research p + h2 { margin-top: 16px; }
+summary { cursor: pointer; font-weight: 650; }
+@media (max-width: 700px) { main { padding-top: 32px; } .grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<main>
+<header>
+<strong>Digital Talent</strong>
+<h1>CV Skill Match</h1>
+<p>Check how much evidence your CV gives for the analytical and digital skills in a role within your target industry.</p>
+</header>
+<div class="grid">
+<form class="card" id="form">
+<h2>Your application</h2>
+<label for="industry">Target industry</label>
+<select id="industry"></select>
+<label for="role">Target position</label>
+<select id="role"></select>
+<label for="cv">CV skills and experience</label>
+<textarea id="cv" required aria-describedby="privacy" placeholder="Paste your skills and relevant experience here."></textarea>
+<small id="privacy">Leave out contact details. Your text stays in this page.</small>
+<div class="actions"><button type="submit">Check skill match</button><button type="button" class="secondary" id="example">Try an example</button><button type="reset" class="secondary">Clear</button></div>
+</form>
+<section class="card" aria-labelledby="result-title">
+<h2 id="result-title">Skill match</h2>
+<details open><summary>Skills to prepare for this role</summary><ul id="requirements"></ul></details>
+<div id="status" role="status">Select an industry and position, then enter your CV.</div>
+<div id="results" hidden>
+<meter id="meter" min="0" max="100" value="0" aria-label="Skill evidence percentage"></meter>
+<ul id="skills"></ul>
+</div>
+<small>The score uses equally weighted example skills and keyword matching. Review the context of each match. The percentage describes skill coverage only.</small>
+</section>
+</div>
+<section class="research" aria-labelledby="research-title">
+<h2 id="research-title">Research question</h2>
+<p>Does the relationship between occupational analytical and digital skill requirements and projected employment growth differ across industries?</p>
+<h2>Application question</h2>
+<p>Which analytical and digital skills should a candidate demonstrate for a specific role in their target industry?</p>
+</section>
+</main>
+<script>
+const shared = [
+  ['Data analysis', 'Analytical', ['data analysis', 'analyzed data', 'analysed data']],
+  ['Data visualization', 'Digital', ['data visualization', 'data visualisation', 'tableau', 'power bi']],
+  ['SQL', 'Digital', ['sql', 'postgresql', 'mysql']],
+];
+const profiles = {
+  'Health care and social assistance': {
+    'Data Analyst': [...shared, ['Health care reporting', 'Analytical', ['health care reporting', 'healthcare reporting', 'clinical reporting']]],
+    'Operations Analyst': [shared[0], ['Process improvement', 'Analytical', ['process improvement', 'lean six sigma']], ['Electronic health records', 'Digital', ['electronic health records', 'ehr']]],
+  },
+  'Finance and insurance': {
+    'Data Analyst': [...shared, ['Financial analysis', 'Analytical', ['financial analysis', 'financial modeling', 'financial modelling']]],
+    'Operations Analyst': [shared[0], ['Risk analysis', 'Analytical', ['risk analysis', 'risk assessment']], ['Spreadsheet modeling', 'Digital', ['excel', 'spreadsheet modeling', 'spreadsheet modelling']]],
+  },
+  'Manufacturing': {
+    'Data Analyst': [...shared, ['Quality analysis', 'Analytical', ['quality analysis', 'statistical process control']]],
+    'Operations Analyst': [shared[0], ['Process improvement', 'Analytical', ['process improvement', 'lean manufacturing']], ['Production systems', 'Digital', ['manufacturing execution system', 'erp', 'sap']]],
+  },
+};
+const el = id => document.getElementById(id);
+const industry = el('industry');
+const role = el('role');
+const cv = el('cv');
+const results = el('results');
+const status = el('status');
+const normalize = text => text.normalize('NFKC').toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
+
+function options(select, names) {
+  select.replaceChildren(...names.map(name => new Option(name, name)));
+}
+function clearResult() {
+  results.hidden = true;
+  status.textContent = 'Select an industry and position, then enter your CV.';
+}
+function currentRequirements() {
+  return profiles[industry.value][role.value];
+}
+function updateRequirements() {
+  el('requirements').replaceChildren(...currentRequirements().map(([name, category]) => {
+    const item = document.createElement('li');
+    item.textContent = `${name} · ${category}`;
+    return item;
+  }));
+  clearResult();
+}
+function updateRoles() {
+  options(role, Object.keys(profiles[industry.value]));
+  updateRequirements();
+}
+function score(text, requirements) {
+  const normalized = ` ${normalize(text)} `;
+  const matches = requirements.map(([name, category, aliases]) => ({
+    name, category, evidence: aliases.find(alias => normalized.includes(` ${normalize(alias)} `)),
+  }));
+  const count = matches.filter(match => match.evidence).length;
+  return {matches, count, percent: Math.round(100 * count / requirements.length)};
+}
+function showScore() {
+  if (!cv.reportValidity()) return;
+  const {matches, count, percent} = score(cv.value, currentRequirements());
+  const headline = document.createElement('strong');
+  headline.className = 'score';
+  headline.textContent = percent + '%';
+  status.replaceChildren(headline, document.createTextNode(
+    `${count} of ${matches.length} skills matched for ${role.value} in ${industry.value}.`
+  ));
+  el('meter').value = percent;
+  el('skills').replaceChildren(...matches.map(({name, category, evidence}) => {
+    const item = document.createElement('li');
+    const details = document.createElement('small');
+    details.textContent = evidence
+      ? `${category} · Keyword found: ${evidence}`
+      : `${category} · No keyword found. Review this skill.`;
+    item.append(name, details);
+    return item;
+  }));
+  results.hidden = false;
+}
+options(industry, Object.keys(profiles));
+updateRoles();
+industry.addEventListener('change', updateRoles);
+role.addEventListener('change', updateRequirements);
+cv.addEventListener('input', () => {
+  cv.setCustomValidity(cv.value.trim() ? '' : 'Enter your CV skills or experience.');
+  clearResult();
+});
+el('form').addEventListener('submit', event => {
+  event.preventDefault();
+  showScore();
+});
+el('form').addEventListener('reset', event => {
+  event.preventDefault();
+  industry.selectedIndex = 0;
+  cv.value = '';
+  cv.setCustomValidity('');
+  updateRoles();
+});
+el('example').addEventListener('click', () => {
+  industry.value = 'Health care and social assistance';
+  updateRoles();
+  role.value = 'Data Analyst';
+  updateRequirements();
+  cv.value = 'Used SQL for data analysis on operations data and built Power BI dashboards.';
+  cv.setCustomValidity('');
+  showScore();
+});
+</script>
+</body>
+</html>
