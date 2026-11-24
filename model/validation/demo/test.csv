@@ -1,0 +1,121 @@
+split,cv_id,posting_id,industry,role,requirement_text,cv_excerpt,label
+test,cv-test-Finance and insurance-00,job-test-Finance and insurance-00,Finance and insurance,Data Analyst,SQL,I supported a team that used SQL.,unclear
+test,cv-test-Finance and insurance-00,job-test-Finance and insurance-00,Finance and insurance,Data Analyst,data analysis,I examined operational datasets for the department.,evidence found
+test,cv-test-Finance and insurance-00,job-test-Finance and insurance-00,Finance and insurance,Data Analyst,data visualization,I organized travel and answered calls.,no evidence found
+test,cv-test-Finance and insurance-00,job-test-Finance and insurance-00,Finance and insurance,Data Analyst,financial analysis,I delivered a project that required financial analysis.,evidence found
+test,cv-test-Finance and insurance-01,job-test-Finance and insurance-01,Finance and insurance,Data Analyst,SQL,I delivered a project that required SQL.,evidence found
+test,cv-test-Finance and insurance-01,job-test-Finance and insurance-01,Finance and insurance,Data Analyst,data analysis,I organized travel and answered calls.,no evidence found
+test,cv-test-Finance and insurance-01,job-test-Finance and insurance-01,Finance and insurance,Data Analyst,data visualization,I organized travel and answered calls.,no evidence found
+test,cv-test-Finance and insurance-01,job-test-Finance and insurance-01,Finance and insurance,Data Analyst,financial analysis,My training introduced financial analysis without a practical assignment.,unclear
+test,cv-test-Finance and insurance-02,job-test-Finance and insurance-02,Finance and insurance,Data Analyst,SQL,I supported a team that used SQL.,unclear
+test,cv-test-Finance and insurance-02,job-test-Finance and insurance-02,Finance and insurance,Data Analyst,data analysis,I have never performed data analysis.,no evidence found
+test,cv-test-Finance and insurance-02,job-test-Finance and insurance-02,Finance and insurance,Data Analyst,data visualization,I designed dashboards for the department.,evidence found
+test,cv-test-Finance and insurance-02,job-test-Finance and insurance-02,Finance and insurance,Data Analyst,financial analysis,My training introduced financial analysis without a practical assignment.,unclear
+test,cv-test-Finance and insurance-03,job-test-Finance and insurance-03,Finance and insurance,Data Analyst,SQL,My training introduced SQL without a practical assignment.,unclear
+test,cv-test-Finance and insurance-03,job-test-Finance and insurance-03,Finance and insurance,Data Analyst,data analysis,I examined operational datasets for the department.,evidence found
+test,cv-test-Finance and insurance-03,job-test-Finance and insurance-03,Finance and insurance,Data Analyst,data visualization,I designed dashboards for the department.,evidence found
+test,cv-test-Finance and insurance-03,job-test-Finance and insurance-03,Finance and insurance,Data Analyst,financial analysis,I have never performed financial analysis.,no evidence found
+test,cv-test-Finance and insurance-04,job-test-Finance and insurance-04,Finance and insurance,Data Analyst,SQL,I delivered a project that required SQL.,evidence found
+test,cv-test-Finance and insurance-04,job-test-Finance and insurance-04,Finance and insurance,Data Analyst,data analysis,I organized travel and answered calls.,no evidence found
+test,cv-test-Finance and insurance-04,job-test-Finance and insurance-04,Finance and insurance,Data Analyst,data visualization,I supported a team that used data visualization.,unclear
+test,cv-test-Finance and insurance-04,job-test-Finance and insurance-04,Finance and insurance,Data Analyst,financial analysis,I organized travel and answered calls.,no evidence found
+test,cv-test-Finance and insurance-05,job-test-Finance and insurance-05,Finance and insurance,Data Analyst,SQL,I delivered a project that required SQL.,evidence found
+test,cv-test-Finance and insurance-05,job-test-Finance and insurance-05,Finance and insurance,Data Analyst,data analysis,I supported a team that used data analysis.,unclear
+test,cv-test-Finance and insurance-05,job-test-Finance and insurance-05,Finance and insurance,Data Analyst,data visualization,I supported a team that used data visualization.,unclear
+test,cv-test-Finance and insurance-05,job-test-Finance and insurance-05,Finance and insurance,Data Analyst,financial analysis,I organized travel and answered calls.,no evidence found
+test,cv-test-Finance and insurance-06,job-test-Finance and insurance-06,Finance and insurance,Data Analyst,SQL,I queried relational databases for the department.,evidence found
+test,cv-test-Finance and insurance-06,job-test-Finance and insurance-06,Finance and insurance,Data Analyst,data analysis,I interpreted performance measures for the department.,evidence found
+test,cv-test-Finance and insurance-06,job-test-Finance and insurance-06,Finance and insurance,Data Analyst,data visualization,My training introduced data visualization without a practical assignment.,unclear
+test,cv-test-Finance and insurance-06,job-test-Finance and insurance-06,Finance and insurance,Data Analyst,financial analysis,I organized travel and answered calls.,no evidence found
+test,cv-test-Finance and insurance-07,job-test-Finance and insurance-07,Finance and insurance,Data Analyst,SQL,I delivered a project that required SQL.,evidence found
+test,cv-test-Finance and insurance-07,job-test-Finance and insurance-07,Finance and insurance,Data Analyst,data analysis,My training introduced data analysis without a practical assignment.,unclear
+test,cv-test-Finance and insurance-07,job-test-Finance and insurance-07,Finance and insurance,Data Analyst,data visualization,I organized travel and answered calls.,no evidence found
+test,cv-test-Finance and insurance-07,job-test-Finance and insurance-07,Finance and insurance,Data Analyst,financial analysis,I have never performed financial analysis.,no evidence found
+test,cv-test-Finance and insurance-08,job-test-Finance and insurance-08,Finance and insurance,Data Analyst,SQL,My training introduced SQL without a practical assignment.,unclear
+test,cv-test-Finance and insurance-08,job-test-Finance and insurance-08,Finance and insurance,Data Analyst,data analysis,My training introduced data analysis without a practical assignment.,unclear
+test,cv-test-Finance and insurance-08,job-test-Finance and insurance-08,Finance and insurance,Data Analyst,data visualization,I have never performed data visualization.,no evidence found
+test,cv-test-Finance and insurance-08,job-test-Finance and insurance-08,Finance and insurance,Data Analyst,financial analysis,I reviewed budget variances for the department.,evidence found
+test,cv-test-Finance and insurance-09,job-test-Finance and insurance-09,Finance and insurance,Data Analyst,SQL,I have never performed SQL.,no evidence found
+test,cv-test-Finance and insurance-09,job-test-Finance and insurance-09,Finance and insurance,Data Analyst,data analysis,I examined operational datasets for the department.,evidence found
+test,cv-test-Finance and insurance-09,job-test-Finance and insurance-09,Finance and insurance,Data Analyst,data visualization,I built graphical reports for the department.,evidence found
+test,cv-test-Finance and insurance-09,job-test-Finance and insurance-09,Finance and insurance,Data Analyst,financial analysis,My training introduced financial analysis without a practical assignment.,unclear
+test,cv-test-Health care and social assistance-00,job-test-Health care and social assistance-00,Health care and social assistance,Data Analyst,SQL,My training introduced SQL without a practical assignment.,unclear
+test,cv-test-Health care and social assistance-00,job-test-Health care and social assistance-00,Health care and social assistance,Data Analyst,data analysis,I delivered a project that required data analysis.,evidence found
+test,cv-test-Health care and social assistance-00,job-test-Health care and social assistance-00,Health care and social assistance,Data Analyst,data visualization,I have never performed data visualization.,no evidence found
+test,cv-test-Health care and social assistance-00,job-test-Health care and social assistance-00,Health care and social assistance,Data Analyst,clinical reporting,I delivered a project that required clinical reporting.,evidence found
+test,cv-test-Health care and social assistance-01,job-test-Health care and social assistance-01,Health care and social assistance,Data Analyst,SQL,I delivered a project that required SQL.,evidence found
+test,cv-test-Health care and social assistance-01,job-test-Health care and social assistance-01,Health care and social assistance,Data Analyst,data analysis,I supported a team that used data analysis.,unclear
+test,cv-test-Health care and social assistance-01,job-test-Health care and social assistance-01,Health care and social assistance,Data Analyst,data visualization,I have never performed data visualization.,no evidence found
+test,cv-test-Health care and social assistance-01,job-test-Health care and social assistance-01,Health care and social assistance,Data Analyst,clinical reporting,I organized travel and answered calls.,no evidence found
+test,cv-test-Health care and social assistance-02,job-test-Health care and social assistance-02,Health care and social assistance,Data Analyst,SQL,My training introduced SQL without a practical assignment.,unclear
+test,cv-test-Health care and social assistance-02,job-test-Health care and social assistance-02,Health care and social assistance,Data Analyst,data analysis,I have never performed data analysis.,no evidence found
+test,cv-test-Health care and social assistance-02,job-test-Health care and social assistance-02,Health care and social assistance,Data Analyst,data visualization,I supported a team that used data visualization.,unclear
+test,cv-test-Health care and social assistance-02,job-test-Health care and social assistance-02,Health care and social assistance,Data Analyst,clinical reporting,I delivered a project that required clinical reporting.,evidence found
+test,cv-test-Health care and social assistance-03,job-test-Health care and social assistance-03,Health care and social assistance,Data Analyst,SQL,I supported a team that used SQL.,unclear
+test,cv-test-Health care and social assistance-03,job-test-Health care and social assistance-03,Health care and social assistance,Data Analyst,data analysis,I have never performed data analysis.,no evidence found
+test,cv-test-Health care and social assistance-03,job-test-Health care and social assistance-03,Health care and social assistance,Data Analyst,data visualization,I delivered a project that required data visualization.,evidence found
+test,cv-test-Health care and social assistance-03,job-test-Health care and social assistance-03,Health care and social assistance,Data Analyst,clinical reporting,I delivered a project that required clinical reporting.,evidence found
+test,cv-test-Health care and social assistance-04,job-test-Health care and social assistance-04,Health care and social assistance,Data Analyst,SQL,I organized travel and answered calls.,no evidence found
+test,cv-test-Health care and social assistance-04,job-test-Health care and social assistance-04,Health care and social assistance,Data Analyst,data analysis,I have never performed data analysis.,no evidence found
+test,cv-test-Health care and social assistance-04,job-test-Health care and social assistance-04,Health care and social assistance,Data Analyst,data visualization,I designed dashboards for the department.,evidence found
+test,cv-test-Health care and social assistance-04,job-test-Health care and social assistance-04,Health care and social assistance,Data Analyst,clinical reporting,My training introduced clinical reporting without a practical assignment.,unclear
+test,cv-test-Health care and social assistance-05,job-test-Health care and social assistance-05,Health care and social assistance,Data Analyst,SQL,My training introduced SQL without a practical assignment.,unclear
+test,cv-test-Health care and social assistance-05,job-test-Health care and social assistance-05,Health care and social assistance,Data Analyst,data analysis,I have never performed data analysis.,no evidence found
+test,cv-test-Health care and social assistance-05,job-test-Health care and social assistance-05,Health care and social assistance,Data Analyst,data visualization,I built graphical reports for the department.,evidence found
+test,cv-test-Health care and social assistance-05,job-test-Health care and social assistance-05,Health care and social assistance,Data Analyst,clinical reporting,I supported a team that used clinical reporting.,unclear
+test,cv-test-Health care and social assistance-06,job-test-Health care and social assistance-06,Health care and social assistance,Data Analyst,SQL,I organized travel and answered calls.,no evidence found
+test,cv-test-Health care and social assistance-06,job-test-Health care and social assistance-06,Health care and social assistance,Data Analyst,data analysis,I delivered a project that required data analysis.,evidence found
+test,cv-test-Health care and social assistance-06,job-test-Health care and social assistance-06,Health care and social assistance,Data Analyst,data visualization,I designed dashboards for the department.,evidence found
+test,cv-test-Health care and social assistance-06,job-test-Health care and social assistance-06,Health care and social assistance,Data Analyst,clinical reporting,I supported a team that used clinical reporting.,unclear
+test,cv-test-Health care and social assistance-07,job-test-Health care and social assistance-07,Health care and social assistance,Data Analyst,SQL,I joined database tables for the department.,evidence found
+test,cv-test-Health care and social assistance-07,job-test-Health care and social assistance-07,Health care and social assistance,Data Analyst,data analysis,I have never performed data analysis.,no evidence found
+test,cv-test-Health care and social assistance-07,job-test-Health care and social assistance-07,Health care and social assistance,Data Analyst,data visualization,I supported a team that used data visualization.,unclear
+test,cv-test-Health care and social assistance-07,job-test-Health care and social assistance-07,Health care and social assistance,Data Analyst,clinical reporting,I organized travel and answered calls.,no evidence found
+test,cv-test-Health care and social assistance-08,job-test-Health care and social assistance-08,Health care and social assistance,Data Analyst,SQL,My training introduced SQL without a practical assignment.,unclear
+test,cv-test-Health care and social assistance-08,job-test-Health care and social assistance-08,Health care and social assistance,Data Analyst,data analysis,I organized travel and answered calls.,no evidence found
+test,cv-test-Health care and social assistance-08,job-test-Health care and social assistance-08,Health care and social assistance,Data Analyst,data visualization,I delivered a project that required data visualization.,evidence found
+test,cv-test-Health care and social assistance-08,job-test-Health care and social assistance-08,Health care and social assistance,Data Analyst,clinical reporting,I supported a team that used clinical reporting.,unclear
+test,cv-test-Health care and social assistance-09,job-test-Health care and social assistance-09,Health care and social assistance,Data Analyst,SQL,I delivered a project that required SQL.,evidence found
+test,cv-test-Health care and social assistance-09,job-test-Health care and social assistance-09,Health care and social assistance,Data Analyst,data analysis,I organized travel and answered calls.,no evidence found
+test,cv-test-Health care and social assistance-09,job-test-Health care and social assistance-09,Health care and social assistance,Data Analyst,data visualization,My training introduced data visualization without a practical assignment.,unclear
+test,cv-test-Health care and social assistance-09,job-test-Health care and social assistance-09,Health care and social assistance,Data Analyst,clinical reporting,I prepared hospital indicators for the department.,evidence found
+test,cv-test-Manufacturing-00,job-test-Manufacturing-00,Manufacturing,Data Analyst,SQL,I supported a team that used SQL.,unclear
+test,cv-test-Manufacturing-00,job-test-Manufacturing-00,Manufacturing,Data Analyst,data analysis,I have never performed data analysis.,no evidence found
+test,cv-test-Manufacturing-00,job-test-Manufacturing-00,Manufacturing,Data Analyst,data visualization,I designed dashboards for the department.,evidence found
+test,cv-test-Manufacturing-00,job-test-Manufacturing-00,Manufacturing,Data Analyst,quality analysis,I delivered a project that required quality analysis.,evidence found
+test,cv-test-Manufacturing-01,job-test-Manufacturing-01,Manufacturing,Data Analyst,SQL,I joined database tables for the department.,evidence found
+test,cv-test-Manufacturing-01,job-test-Manufacturing-01,Manufacturing,Data Analyst,data analysis,I have never performed data analysis.,no evidence found
+test,cv-test-Manufacturing-01,job-test-Manufacturing-01,Manufacturing,Data Analyst,data visualization,I supported a team that used data visualization.,unclear
+test,cv-test-Manufacturing-01,job-test-Manufacturing-01,Manufacturing,Data Analyst,quality analysis,I organized travel and answered calls.,no evidence found
+test,cv-test-Manufacturing-02,job-test-Manufacturing-02,Manufacturing,Data Analyst,SQL,I organized travel and answered calls.,no evidence found
+test,cv-test-Manufacturing-02,job-test-Manufacturing-02,Manufacturing,Data Analyst,data analysis,I supported a team that used data analysis.,unclear
+test,cv-test-Manufacturing-02,job-test-Manufacturing-02,Manufacturing,Data Analyst,data visualization,My training introduced data visualization without a practical assignment.,unclear
+test,cv-test-Manufacturing-02,job-test-Manufacturing-02,Manufacturing,Data Analyst,quality analysis,I delivered a project that required quality analysis.,evidence found
+test,cv-test-Manufacturing-03,job-test-Manufacturing-03,Manufacturing,Data Analyst,SQL,I delivered a project that required SQL.,evidence found
+test,cv-test-Manufacturing-03,job-test-Manufacturing-03,Manufacturing,Data Analyst,data analysis,I organized travel and answered calls.,no evidence found
+test,cv-test-Manufacturing-03,job-test-Manufacturing-03,Manufacturing,Data Analyst,data visualization,My training introduced data visualization without a practical assignment.,unclear
+test,cv-test-Manufacturing-03,job-test-Manufacturing-03,Manufacturing,Data Analyst,quality analysis,I investigated defects for the department.,evidence found
+test,cv-test-Manufacturing-04,job-test-Manufacturing-04,Manufacturing,Data Analyst,SQL,I organized travel and answered calls.,no evidence found
+test,cv-test-Manufacturing-04,job-test-Manufacturing-04,Manufacturing,Data Analyst,data analysis,I supported a team that used data analysis.,unclear
+test,cv-test-Manufacturing-04,job-test-Manufacturing-04,Manufacturing,Data Analyst,data visualization,I organized travel and answered calls.,no evidence found
+test,cv-test-Manufacturing-04,job-test-Manufacturing-04,Manufacturing,Data Analyst,quality analysis,I delivered a project that required quality analysis.,evidence found
+test,cv-test-Manufacturing-05,job-test-Manufacturing-05,Manufacturing,Data Analyst,SQL,I organized travel and answered calls.,no evidence found
+test,cv-test-Manufacturing-05,job-test-Manufacturing-05,Manufacturing,Data Analyst,data analysis,My training introduced data analysis without a practical assignment.,unclear
+test,cv-test-Manufacturing-05,job-test-Manufacturing-05,Manufacturing,Data Analyst,data visualization,I delivered a project that required data visualization.,evidence found
+test,cv-test-Manufacturing-05,job-test-Manufacturing-05,Manufacturing,Data Analyst,quality analysis,I supported a team that used quality analysis.,unclear
+test,cv-test-Manufacturing-06,job-test-Manufacturing-06,Manufacturing,Data Analyst,SQL,I queried relational databases for the department.,evidence found
+test,cv-test-Manufacturing-06,job-test-Manufacturing-06,Manufacturing,Data Analyst,data analysis,I have never performed data analysis.,no evidence found
+test,cv-test-Manufacturing-06,job-test-Manufacturing-06,Manufacturing,Data Analyst,data visualization,I built graphical reports for the department.,evidence found
+test,cv-test-Manufacturing-06,job-test-Manufacturing-06,Manufacturing,Data Analyst,quality analysis,I supported a team that used quality analysis.,unclear
+test,cv-test-Manufacturing-07,job-test-Manufacturing-07,Manufacturing,Data Analyst,SQL,I have never performed SQL.,no evidence found
+test,cv-test-Manufacturing-07,job-test-Manufacturing-07,Manufacturing,Data Analyst,data analysis,I delivered a project that required data analysis.,evidence found
+test,cv-test-Manufacturing-07,job-test-Manufacturing-07,Manufacturing,Data Analyst,data visualization,I supported a team that used data visualization.,unclear
+test,cv-test-Manufacturing-07,job-test-Manufacturing-07,Manufacturing,Data Analyst,quality analysis,I have never performed quality analysis.,no evidence found
+test,cv-test-Manufacturing-08,job-test-Manufacturing-08,Manufacturing,Data Analyst,SQL,My training introduced SQL without a practical assignment.,unclear
+test,cv-test-Manufacturing-08,job-test-Manufacturing-08,Manufacturing,Data Analyst,data analysis,I examined operational datasets for the department.,evidence found
+test,cv-test-Manufacturing-08,job-test-Manufacturing-08,Manufacturing,Data Analyst,data visualization,My training introduced data visualization without a practical assignment.,unclear
+test,cv-test-Manufacturing-08,job-test-Manufacturing-08,Manufacturing,Data Analyst,quality analysis,I have never performed quality analysis.,no evidence found
+test,cv-test-Manufacturing-09,job-test-Manufacturing-09,Manufacturing,Data Analyst,SQL,I delivered a project that required SQL.,evidence found
+test,cv-test-Manufacturing-09,job-test-Manufacturing-09,Manufacturing,Data Analyst,data analysis,I have never performed data analysis.,no evidence found
+test,cv-test-Manufacturing-09,job-test-Manufacturing-09,Manufacturing,Data Analyst,data visualization,I delivered a project that required data visualization.,evidence found
+test,cv-test-Manufacturing-09,job-test-Manufacturing-09,Manufacturing,Data Analyst,quality analysis,My training introduced quality analysis without a practical assignment.,unclear

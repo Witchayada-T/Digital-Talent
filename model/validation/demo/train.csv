@@ -1,0 +1,361 @@
+split,cv_id,posting_id,industry,role,requirement_text,cv_excerpt,label
+train,cv-train-Finance and insurance-00,job-train-Finance and insurance-00,Finance and insurance,Data Analyst,SQL,I am interested in learning SQL.,unclear
+train,cv-train-Finance and insurance-00,job-train-Finance and insurance-00,Finance and insurance,Data Analyst,data analysis,I have no experience with data analysis.,no evidence found
+train,cv-train-Finance and insurance-00,job-train-Finance and insurance-00,Finance and insurance,Data Analyst,data visualization,I used data visualization on a project.,evidence found
+train,cv-train-Finance and insurance-00,job-train-Finance and insurance-00,Finance and insurance,Data Analyst,financial analysis,I used financial analysis on a project.,evidence found
+train,cv-train-Finance and insurance-01,job-train-Finance and insurance-01,Finance and insurance,Data Analyst,SQL,I have no experience with SQL.,no evidence found
+train,cv-train-Finance and insurance-01,job-train-Finance and insurance-01,Finance and insurance,Data Analyst,data analysis,"My team did data analysis, but my role was administrative.",unclear
+train,cv-train-Finance and insurance-01,job-train-Finance and insurance-01,Finance and insurance,Data Analyst,data visualization,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Finance and insurance-01,job-train-Finance and insurance-01,Finance and insurance,Data Analyst,financial analysis,I used financial analysis on a project.,evidence found
+train,cv-train-Finance and insurance-02,job-train-Finance and insurance-02,Finance and insurance,Data Analyst,SQL,I used SQL on a project.,evidence found
+train,cv-train-Finance and insurance-02,job-train-Finance and insurance-02,Finance and insurance,Data Analyst,data analysis,"My team did data analysis, but my role was administrative.",unclear
+train,cv-train-Finance and insurance-02,job-train-Finance and insurance-02,Finance and insurance,Data Analyst,data visualization,I have no experience with data visualization.,no evidence found
+train,cv-train-Finance and insurance-02,job-train-Finance and insurance-02,Finance and insurance,Data Analyst,financial analysis,I am interested in learning financial analysis.,unclear
+train,cv-train-Finance and insurance-03,job-train-Finance and insurance-03,Finance and insurance,Data Analyst,SQL,I used SQL on a project.,evidence found
+train,cv-train-Finance and insurance-03,job-train-Finance and insurance-03,Finance and insurance,Data Analyst,data analysis,I have no experience with data analysis.,no evidence found
+train,cv-train-Finance and insurance-03,job-train-Finance and insurance-03,Finance and insurance,Data Analyst,data visualization,I used data visualization on a project.,evidence found
+train,cv-train-Finance and insurance-03,job-train-Finance and insurance-03,Finance and insurance,Data Analyst,financial analysis,"My team did financial analysis, but my role was administrative.",unclear
+train,cv-train-Finance and insurance-04,job-train-Finance and insurance-04,Finance and insurance,Data Analyst,SQL,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Finance and insurance-04,job-train-Finance and insurance-04,Finance and insurance,Data Analyst,data analysis,I am interested in learning data analysis.,unclear
+train,cv-train-Finance and insurance-04,job-train-Finance and insurance-04,Finance and insurance,Data Analyst,data visualization,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Finance and insurance-04,job-train-Finance and insurance-04,Finance and insurance,Data Analyst,financial analysis,I independently compared revenue forecasts.,evidence found
+train,cv-train-Finance and insurance-05,job-train-Finance and insurance-05,Finance and insurance,Data Analyst,SQL,I used SQL on a project.,evidence found
+train,cv-train-Finance and insurance-05,job-train-Finance and insurance-05,Finance and insurance,Data Analyst,data analysis,I am interested in learning data analysis.,unclear
+train,cv-train-Finance and insurance-05,job-train-Finance and insurance-05,Finance and insurance,Data Analyst,data visualization,I am interested in learning data visualization.,unclear
+train,cv-train-Finance and insurance-05,job-train-Finance and insurance-05,Finance and insurance,Data Analyst,financial analysis,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Finance and insurance-06,job-train-Finance and insurance-06,Finance and insurance,Data Analyst,SQL,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Finance and insurance-06,job-train-Finance and insurance-06,Finance and insurance,Data Analyst,data analysis,I used data analysis on a project.,evidence found
+train,cv-train-Finance and insurance-06,job-train-Finance and insurance-06,Finance and insurance,Data Analyst,data visualization,I independently built graphical reports.,evidence found
+train,cv-train-Finance and insurance-06,job-train-Finance and insurance-06,Finance and insurance,Data Analyst,financial analysis,"My team did financial analysis, but my role was administrative.",unclear
+train,cv-train-Finance and insurance-07,job-train-Finance and insurance-07,Finance and insurance,Data Analyst,SQL,I used SQL on a project.,evidence found
+train,cv-train-Finance and insurance-07,job-train-Finance and insurance-07,Finance and insurance,Data Analyst,data analysis,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Finance and insurance-07,job-train-Finance and insurance-07,Finance and insurance,Data Analyst,data visualization,I am interested in learning data visualization.,unclear
+train,cv-train-Finance and insurance-07,job-train-Finance and insurance-07,Finance and insurance,Data Analyst,financial analysis,I have no experience with financial analysis.,no evidence found
+train,cv-train-Finance and insurance-08,job-train-Finance and insurance-08,Finance and insurance,Data Analyst,SQL,I independently joined database tables.,evidence found
+train,cv-train-Finance and insurance-08,job-train-Finance and insurance-08,Finance and insurance,Data Analyst,data analysis,I have no experience with data analysis.,no evidence found
+train,cv-train-Finance and insurance-08,job-train-Finance and insurance-08,Finance and insurance,Data Analyst,data visualization,"My team did data visualization, but my role was administrative.",unclear
+train,cv-train-Finance and insurance-08,job-train-Finance and insurance-08,Finance and insurance,Data Analyst,financial analysis,I am interested in learning financial analysis.,unclear
+train,cv-train-Finance and insurance-09,job-train-Finance and insurance-09,Finance and insurance,Data Analyst,SQL,I independently queried relational databases.,evidence found
+train,cv-train-Finance and insurance-09,job-train-Finance and insurance-09,Finance and insurance,Data Analyst,data analysis,I independently interpreted performance measures.,evidence found
+train,cv-train-Finance and insurance-09,job-train-Finance and insurance-09,Finance and insurance,Data Analyst,data visualization,"My team did data visualization, but my role was administrative.",unclear
+train,cv-train-Finance and insurance-09,job-train-Finance and insurance-09,Finance and insurance,Data Analyst,financial analysis,I have no experience with financial analysis.,no evidence found
+train,cv-train-Finance and insurance-10,job-train-Finance and insurance-10,Finance and insurance,Data Analyst,SQL,I used SQL on a project.,evidence found
+train,cv-train-Finance and insurance-10,job-train-Finance and insurance-10,Finance and insurance,Data Analyst,data analysis,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Finance and insurance-10,job-train-Finance and insurance-10,Finance and insurance,Data Analyst,data visualization,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Finance and insurance-10,job-train-Finance and insurance-10,Finance and insurance,Data Analyst,financial analysis,"My team did financial analysis, but my role was administrative.",unclear
+train,cv-train-Finance and insurance-11,job-train-Finance and insurance-11,Finance and insurance,Data Analyst,SQL,I am interested in learning SQL.,unclear
+train,cv-train-Finance and insurance-11,job-train-Finance and insurance-11,Finance and insurance,Data Analyst,data analysis,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Finance and insurance-11,job-train-Finance and insurance-11,Finance and insurance,Data Analyst,data visualization,I am interested in learning data visualization.,unclear
+train,cv-train-Finance and insurance-11,job-train-Finance and insurance-11,Finance and insurance,Data Analyst,financial analysis,I independently reviewed budget variances.,evidence found
+train,cv-train-Finance and insurance-12,job-train-Finance and insurance-12,Finance and insurance,Data Analyst,SQL,I used SQL on a project.,evidence found
+train,cv-train-Finance and insurance-12,job-train-Finance and insurance-12,Finance and insurance,Data Analyst,data analysis,I am interested in learning data analysis.,unclear
+train,cv-train-Finance and insurance-12,job-train-Finance and insurance-12,Finance and insurance,Data Analyst,data visualization,I have no experience with data visualization.,no evidence found
+train,cv-train-Finance and insurance-12,job-train-Finance and insurance-12,Finance and insurance,Data Analyst,financial analysis,I used financial analysis on a project.,evidence found
+train,cv-train-Finance and insurance-13,job-train-Finance and insurance-13,Finance and insurance,Data Analyst,SQL,I used SQL on a project.,evidence found
+train,cv-train-Finance and insurance-13,job-train-Finance and insurance-13,Finance and insurance,Data Analyst,data analysis,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Finance and insurance-13,job-train-Finance and insurance-13,Finance and insurance,Data Analyst,data visualization,I am interested in learning data visualization.,unclear
+train,cv-train-Finance and insurance-13,job-train-Finance and insurance-13,Finance and insurance,Data Analyst,financial analysis,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Finance and insurance-14,job-train-Finance and insurance-14,Finance and insurance,Data Analyst,SQL,I used SQL on a project.,evidence found
+train,cv-train-Finance and insurance-14,job-train-Finance and insurance-14,Finance and insurance,Data Analyst,data analysis,I have no experience with data analysis.,no evidence found
+train,cv-train-Finance and insurance-14,job-train-Finance and insurance-14,Finance and insurance,Data Analyst,data visualization,"My team did data visualization, but my role was administrative.",unclear
+train,cv-train-Finance and insurance-14,job-train-Finance and insurance-14,Finance and insurance,Data Analyst,financial analysis,I am interested in learning financial analysis.,unclear
+train,cv-train-Finance and insurance-15,job-train-Finance and insurance-15,Finance and insurance,Data Analyst,SQL,I have no experience with SQL.,no evidence found
+train,cv-train-Finance and insurance-15,job-train-Finance and insurance-15,Finance and insurance,Data Analyst,data analysis,I am interested in learning data analysis.,unclear
+train,cv-train-Finance and insurance-15,job-train-Finance and insurance-15,Finance and insurance,Data Analyst,data visualization,I used data visualization on a project.,evidence found
+train,cv-train-Finance and insurance-15,job-train-Finance and insurance-15,Finance and insurance,Data Analyst,financial analysis,I independently compared revenue forecasts.,evidence found
+train,cv-train-Finance and insurance-16,job-train-Finance and insurance-16,Finance and insurance,Data Analyst,SQL,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Finance and insurance-16,job-train-Finance and insurance-16,Finance and insurance,Data Analyst,data analysis,I independently interpreted performance measures.,evidence found
+train,cv-train-Finance and insurance-16,job-train-Finance and insurance-16,Finance and insurance,Data Analyst,data visualization,I am interested in learning data visualization.,unclear
+train,cv-train-Finance and insurance-16,job-train-Finance and insurance-16,Finance and insurance,Data Analyst,financial analysis,I have no experience with financial analysis.,no evidence found
+train,cv-train-Finance and insurance-17,job-train-Finance and insurance-17,Finance and insurance,Data Analyst,SQL,I independently queried relational databases.,evidence found
+train,cv-train-Finance and insurance-17,job-train-Finance and insurance-17,Finance and insurance,Data Analyst,data analysis,I am interested in learning data analysis.,unclear
+train,cv-train-Finance and insurance-17,job-train-Finance and insurance-17,Finance and insurance,Data Analyst,data visualization,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Finance and insurance-17,job-train-Finance and insurance-17,Finance and insurance,Data Analyst,financial analysis,I am interested in learning financial analysis.,unclear
+train,cv-train-Finance and insurance-18,job-train-Finance and insurance-18,Finance and insurance,Data Analyst,SQL,I am interested in learning SQL.,unclear
+train,cv-train-Finance and insurance-18,job-train-Finance and insurance-18,Finance and insurance,Data Analyst,data analysis,I used data analysis on a project.,evidence found
+train,cv-train-Finance and insurance-18,job-train-Finance and insurance-18,Finance and insurance,Data Analyst,data visualization,I independently designed dashboards.,evidence found
+train,cv-train-Finance and insurance-18,job-train-Finance and insurance-18,Finance and insurance,Data Analyst,financial analysis,I have no experience with financial analysis.,no evidence found
+train,cv-train-Finance and insurance-19,job-train-Finance and insurance-19,Finance and insurance,Data Analyst,SQL,I have no experience with SQL.,no evidence found
+train,cv-train-Finance and insurance-19,job-train-Finance and insurance-19,Finance and insurance,Data Analyst,data analysis,I am interested in learning data analysis.,unclear
+train,cv-train-Finance and insurance-19,job-train-Finance and insurance-19,Finance and insurance,Data Analyst,data visualization,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Finance and insurance-19,job-train-Finance and insurance-19,Finance and insurance,Data Analyst,financial analysis,I used financial analysis on a project.,evidence found
+train,cv-train-Finance and insurance-20,job-train-Finance and insurance-20,Finance and insurance,Data Analyst,SQL,I am interested in learning SQL.,unclear
+train,cv-train-Finance and insurance-20,job-train-Finance and insurance-20,Finance and insurance,Data Analyst,data analysis,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Finance and insurance-20,job-train-Finance and insurance-20,Finance and insurance,Data Analyst,data visualization,"My team did data visualization, but my role was administrative.",unclear
+train,cv-train-Finance and insurance-20,job-train-Finance and insurance-20,Finance and insurance,Data Analyst,financial analysis,I independently reviewed budget variances.,evidence found
+train,cv-train-Finance and insurance-21,job-train-Finance and insurance-21,Finance and insurance,Data Analyst,SQL,I am interested in learning SQL.,unclear
+train,cv-train-Finance and insurance-21,job-train-Finance and insurance-21,Finance and insurance,Data Analyst,data analysis,I independently examined operational datasets.,evidence found
+train,cv-train-Finance and insurance-21,job-train-Finance and insurance-21,Finance and insurance,Data Analyst,data visualization,I used data visualization on a project.,evidence found
+train,cv-train-Finance and insurance-21,job-train-Finance and insurance-21,Finance and insurance,Data Analyst,financial analysis,I have no experience with financial analysis.,no evidence found
+train,cv-train-Finance and insurance-22,job-train-Finance and insurance-22,Finance and insurance,Data Analyst,SQL,I have no experience with SQL.,no evidence found
+train,cv-train-Finance and insurance-22,job-train-Finance and insurance-22,Finance and insurance,Data Analyst,data analysis,"My team did data analysis, but my role was administrative.",unclear
+train,cv-train-Finance and insurance-22,job-train-Finance and insurance-22,Finance and insurance,Data Analyst,data visualization,I have no experience with data visualization.,no evidence found
+train,cv-train-Finance and insurance-22,job-train-Finance and insurance-22,Finance and insurance,Data Analyst,financial analysis,I used financial analysis on a project.,evidence found
+train,cv-train-Finance and insurance-23,job-train-Finance and insurance-23,Finance and insurance,Data Analyst,SQL,"My team did SQL, but my role was administrative.",unclear
+train,cv-train-Finance and insurance-23,job-train-Finance and insurance-23,Finance and insurance,Data Analyst,data analysis,I independently interpreted performance measures.,evidence found
+train,cv-train-Finance and insurance-23,job-train-Finance and insurance-23,Finance and insurance,Data Analyst,data visualization,I have no experience with data visualization.,no evidence found
+train,cv-train-Finance and insurance-23,job-train-Finance and insurance-23,Finance and insurance,Data Analyst,financial analysis,"My team did financial analysis, but my role was administrative.",unclear
+train,cv-train-Finance and insurance-24,job-train-Finance and insurance-24,Finance and insurance,Data Analyst,SQL,I am interested in learning SQL.,unclear
+train,cv-train-Finance and insurance-24,job-train-Finance and insurance-24,Finance and insurance,Data Analyst,data analysis,I have no experience with data analysis.,no evidence found
+train,cv-train-Finance and insurance-24,job-train-Finance and insurance-24,Finance and insurance,Data Analyst,data visualization,I used data visualization on a project.,evidence found
+train,cv-train-Finance and insurance-24,job-train-Finance and insurance-24,Finance and insurance,Data Analyst,financial analysis,I used financial analysis on a project.,evidence found
+train,cv-train-Finance and insurance-25,job-train-Finance and insurance-25,Finance and insurance,Data Analyst,SQL,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Finance and insurance-25,job-train-Finance and insurance-25,Finance and insurance,Data Analyst,data analysis,I used data analysis on a project.,evidence found
+train,cv-train-Finance and insurance-25,job-train-Finance and insurance-25,Finance and insurance,Data Analyst,data visualization,I have no experience with data visualization.,no evidence found
+train,cv-train-Finance and insurance-25,job-train-Finance and insurance-25,Finance and insurance,Data Analyst,financial analysis,"My team did financial analysis, but my role was administrative.",unclear
+train,cv-train-Finance and insurance-26,job-train-Finance and insurance-26,Finance and insurance,Data Analyst,SQL,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Finance and insurance-26,job-train-Finance and insurance-26,Finance and insurance,Data Analyst,data analysis,I am interested in learning data analysis.,unclear
+train,cv-train-Finance and insurance-26,job-train-Finance and insurance-26,Finance and insurance,Data Analyst,data visualization,I am interested in learning data visualization.,unclear
+train,cv-train-Finance and insurance-26,job-train-Finance and insurance-26,Finance and insurance,Data Analyst,financial analysis,I independently compared revenue forecasts.,evidence found
+train,cv-train-Finance and insurance-27,job-train-Finance and insurance-27,Finance and insurance,Data Analyst,SQL,"My team did SQL, but my role was administrative.",unclear
+train,cv-train-Finance and insurance-27,job-train-Finance and insurance-27,Finance and insurance,Data Analyst,data analysis,I have no experience with data analysis.,no evidence found
+train,cv-train-Finance and insurance-27,job-train-Finance and insurance-27,Finance and insurance,Data Analyst,data visualization,I used data visualization on a project.,evidence found
+train,cv-train-Finance and insurance-27,job-train-Finance and insurance-27,Finance and insurance,Data Analyst,financial analysis,I used financial analysis on a project.,evidence found
+train,cv-train-Finance and insurance-28,job-train-Finance and insurance-28,Finance and insurance,Data Analyst,SQL,I have no experience with SQL.,no evidence found
+train,cv-train-Finance and insurance-28,job-train-Finance and insurance-28,Finance and insurance,Data Analyst,data analysis,I used data analysis on a project.,evidence found
+train,cv-train-Finance and insurance-28,job-train-Finance and insurance-28,Finance and insurance,Data Analyst,data visualization,"My team did data visualization, but my role was administrative.",unclear
+train,cv-train-Finance and insurance-28,job-train-Finance and insurance-28,Finance and insurance,Data Analyst,financial analysis,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Finance and insurance-29,job-train-Finance and insurance-29,Finance and insurance,Data Analyst,SQL,I am interested in learning SQL.,unclear
+train,cv-train-Finance and insurance-29,job-train-Finance and insurance-29,Finance and insurance,Data Analyst,data analysis,I am interested in learning data analysis.,unclear
+train,cv-train-Finance and insurance-29,job-train-Finance and insurance-29,Finance and insurance,Data Analyst,data visualization,I have no experience with data visualization.,no evidence found
+train,cv-train-Finance and insurance-29,job-train-Finance and insurance-29,Finance and insurance,Data Analyst,financial analysis,I independently reviewed budget variances.,evidence found
+train,cv-train-Health care and social assistance-00,job-train-Health care and social assistance-00,Health care and social assistance,Data Analyst,SQL,I independently queried relational databases.,evidence found
+train,cv-train-Health care and social assistance-00,job-train-Health care and social assistance-00,Health care and social assistance,Data Analyst,data analysis,I am interested in learning data analysis.,unclear
+train,cv-train-Health care and social assistance-00,job-train-Health care and social assistance-00,Health care and social assistance,Data Analyst,data visualization,I independently designed dashboards.,evidence found
+train,cv-train-Health care and social assistance-00,job-train-Health care and social assistance-00,Health care and social assistance,Data Analyst,clinical reporting,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Health care and social assistance-01,job-train-Health care and social assistance-01,Health care and social assistance,Data Analyst,SQL,"My team did SQL, but my role was administrative.",unclear
+train,cv-train-Health care and social assistance-01,job-train-Health care and social assistance-01,Health care and social assistance,Data Analyst,data analysis,I have no experience with data analysis.,no evidence found
+train,cv-train-Health care and social assistance-01,job-train-Health care and social assistance-01,Health care and social assistance,Data Analyst,data visualization,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Health care and social assistance-01,job-train-Health care and social assistance-01,Health care and social assistance,Data Analyst,clinical reporting,I used clinical reporting on a project.,evidence found
+train,cv-train-Health care and social assistance-02,job-train-Health care and social assistance-02,Health care and social assistance,Data Analyst,SQL,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Health care and social assistance-02,job-train-Health care and social assistance-02,Health care and social assistance,Data Analyst,data analysis,"My team did data analysis, but my role was administrative.",unclear
+train,cv-train-Health care and social assistance-02,job-train-Health care and social assistance-02,Health care and social assistance,Data Analyst,data visualization,"My team did data visualization, but my role was administrative.",unclear
+train,cv-train-Health care and social assistance-02,job-train-Health care and social assistance-02,Health care and social assistance,Data Analyst,clinical reporting,I independently prepared hospital indicators.,evidence found
+train,cv-train-Health care and social assistance-03,job-train-Health care and social assistance-03,Health care and social assistance,Data Analyst,SQL,I am interested in learning SQL.,unclear
+train,cv-train-Health care and social assistance-03,job-train-Health care and social assistance-03,Health care and social assistance,Data Analyst,data analysis,I have no experience with data analysis.,no evidence found
+train,cv-train-Health care and social assistance-03,job-train-Health care and social assistance-03,Health care and social assistance,Data Analyst,data visualization,I independently built graphical reports.,evidence found
+train,cv-train-Health care and social assistance-03,job-train-Health care and social assistance-03,Health care and social assistance,Data Analyst,clinical reporting,I independently prepared hospital indicators.,evidence found
+train,cv-train-Health care and social assistance-04,job-train-Health care and social assistance-04,Health care and social assistance,Data Analyst,SQL,"My team did SQL, but my role was administrative.",unclear
+train,cv-train-Health care and social assistance-04,job-train-Health care and social assistance-04,Health care and social assistance,Data Analyst,data analysis,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Health care and social assistance-04,job-train-Health care and social assistance-04,Health care and social assistance,Data Analyst,data visualization,I have no experience with data visualization.,no evidence found
+train,cv-train-Health care and social assistance-04,job-train-Health care and social assistance-04,Health care and social assistance,Data Analyst,clinical reporting,I independently summarized patient metrics.,evidence found
+train,cv-train-Health care and social assistance-05,job-train-Health care and social assistance-05,Health care and social assistance,Data Analyst,SQL,I used SQL on a project.,evidence found
+train,cv-train-Health care and social assistance-05,job-train-Health care and social assistance-05,Health care and social assistance,Data Analyst,data analysis,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Health care and social assistance-05,job-train-Health care and social assistance-05,Health care and social assistance,Data Analyst,data visualization,"My team did data visualization, but my role was administrative.",unclear
+train,cv-train-Health care and social assistance-05,job-train-Health care and social assistance-05,Health care and social assistance,Data Analyst,clinical reporting,"My team did clinical reporting, but my role was administrative.",unclear
+train,cv-train-Health care and social assistance-06,job-train-Health care and social assistance-06,Health care and social assistance,Data Analyst,SQL,I used SQL on a project.,evidence found
+train,cv-train-Health care and social assistance-06,job-train-Health care and social assistance-06,Health care and social assistance,Data Analyst,data analysis,"My team did data analysis, but my role was administrative.",unclear
+train,cv-train-Health care and social assistance-06,job-train-Health care and social assistance-06,Health care and social assistance,Data Analyst,data visualization,I independently built graphical reports.,evidence found
+train,cv-train-Health care and social assistance-06,job-train-Health care and social assistance-06,Health care and social assistance,Data Analyst,clinical reporting,I have no experience with clinical reporting.,no evidence found
+train,cv-train-Health care and social assistance-07,job-train-Health care and social assistance-07,Health care and social assistance,Data Analyst,SQL,I independently queried relational databases.,evidence found
+train,cv-train-Health care and social assistance-07,job-train-Health care and social assistance-07,Health care and social assistance,Data Analyst,data analysis,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Health care and social assistance-07,job-train-Health care and social assistance-07,Health care and social assistance,Data Analyst,data visualization,I have no experience with data visualization.,no evidence found
+train,cv-train-Health care and social assistance-07,job-train-Health care and social assistance-07,Health care and social assistance,Data Analyst,clinical reporting,"My team did clinical reporting, but my role was administrative.",unclear
+train,cv-train-Health care and social assistance-08,job-train-Health care and social assistance-08,Health care and social assistance,Data Analyst,SQL,I used SQL on a project.,evidence found
+train,cv-train-Health care and social assistance-08,job-train-Health care and social assistance-08,Health care and social assistance,Data Analyst,data analysis,I am interested in learning data analysis.,unclear
+train,cv-train-Health care and social assistance-08,job-train-Health care and social assistance-08,Health care and social assistance,Data Analyst,data visualization,I am interested in learning data visualization.,unclear
+train,cv-train-Health care and social assistance-08,job-train-Health care and social assistance-08,Health care and social assistance,Data Analyst,clinical reporting,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Health care and social assistance-09,job-train-Health care and social assistance-09,Health care and social assistance,Data Analyst,SQL,"My team did SQL, but my role was administrative.",unclear
+train,cv-train-Health care and social assistance-09,job-train-Health care and social assistance-09,Health care and social assistance,Data Analyst,data analysis,I independently examined operational datasets.,evidence found
+train,cv-train-Health care and social assistance-09,job-train-Health care and social assistance-09,Health care and social assistance,Data Analyst,data visualization,I have no experience with data visualization.,no evidence found
+train,cv-train-Health care and social assistance-09,job-train-Health care and social assistance-09,Health care and social assistance,Data Analyst,clinical reporting,I used clinical reporting on a project.,evidence found
+train,cv-train-Health care and social assistance-10,job-train-Health care and social assistance-10,Health care and social assistance,Data Analyst,SQL,I am interested in learning SQL.,unclear
+train,cv-train-Health care and social assistance-10,job-train-Health care and social assistance-10,Health care and social assistance,Data Analyst,data analysis,I have no experience with data analysis.,no evidence found
+train,cv-train-Health care and social assistance-10,job-train-Health care and social assistance-10,Health care and social assistance,Data Analyst,data visualization,I used data visualization on a project.,evidence found
+train,cv-train-Health care and social assistance-10,job-train-Health care and social assistance-10,Health care and social assistance,Data Analyst,clinical reporting,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Health care and social assistance-11,job-train-Health care and social assistance-11,Health care and social assistance,Data Analyst,SQL,I used SQL on a project.,evidence found
+train,cv-train-Health care and social assistance-11,job-train-Health care and social assistance-11,Health care and social assistance,Data Analyst,data analysis,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Health care and social assistance-11,job-train-Health care and social assistance-11,Health care and social assistance,Data Analyst,data visualization,I am interested in learning data visualization.,unclear
+train,cv-train-Health care and social assistance-11,job-train-Health care and social assistance-11,Health care and social assistance,Data Analyst,clinical reporting,"My team did clinical reporting, but my role was administrative.",unclear
+train,cv-train-Health care and social assistance-12,job-train-Health care and social assistance-12,Health care and social assistance,Data Analyst,SQL,I independently queried relational databases.,evidence found
+train,cv-train-Health care and social assistance-12,job-train-Health care and social assistance-12,Health care and social assistance,Data Analyst,data analysis,I independently interpreted performance measures.,evidence found
+train,cv-train-Health care and social assistance-12,job-train-Health care and social assistance-12,Health care and social assistance,Data Analyst,data visualization,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Health care and social assistance-12,job-train-Health care and social assistance-12,Health care and social assistance,Data Analyst,clinical reporting,I am interested in learning clinical reporting.,unclear
+train,cv-train-Health care and social assistance-13,job-train-Health care and social assistance-13,Health care and social assistance,Data Analyst,SQL,I am interested in learning SQL.,unclear
+train,cv-train-Health care and social assistance-13,job-train-Health care and social assistance-13,Health care and social assistance,Data Analyst,data analysis,I independently interpreted performance measures.,evidence found
+train,cv-train-Health care and social assistance-13,job-train-Health care and social assistance-13,Health care and social assistance,Data Analyst,data visualization,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Health care and social assistance-13,job-train-Health care and social assistance-13,Health care and social assistance,Data Analyst,clinical reporting,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Health care and social assistance-14,job-train-Health care and social assistance-14,Health care and social assistance,Data Analyst,SQL,I used SQL on a project.,evidence found
+train,cv-train-Health care and social assistance-14,job-train-Health care and social assistance-14,Health care and social assistance,Data Analyst,data analysis,"My team did data analysis, but my role was administrative.",unclear
+train,cv-train-Health care and social assistance-14,job-train-Health care and social assistance-14,Health care and social assistance,Data Analyst,data visualization,"My team did data visualization, but my role was administrative.",unclear
+train,cv-train-Health care and social assistance-14,job-train-Health care and social assistance-14,Health care and social assistance,Data Analyst,clinical reporting,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Health care and social assistance-15,job-train-Health care and social assistance-15,Health care and social assistance,Data Analyst,SQL,"My team did SQL, but my role was administrative.",unclear
+train,cv-train-Health care and social assistance-15,job-train-Health care and social assistance-15,Health care and social assistance,Data Analyst,data analysis,I independently examined operational datasets.,evidence found
+train,cv-train-Health care and social assistance-15,job-train-Health care and social assistance-15,Health care and social assistance,Data Analyst,data visualization,I independently built graphical reports.,evidence found
+train,cv-train-Health care and social assistance-15,job-train-Health care and social assistance-15,Health care and social assistance,Data Analyst,clinical reporting,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Health care and social assistance-16,job-train-Health care and social assistance-16,Health care and social assistance,Data Analyst,SQL,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Health care and social assistance-16,job-train-Health care and social assistance-16,Health care and social assistance,Data Analyst,data analysis,I am interested in learning data analysis.,unclear
+train,cv-train-Health care and social assistance-16,job-train-Health care and social assistance-16,Health care and social assistance,Data Analyst,data visualization,I used data visualization on a project.,evidence found
+train,cv-train-Health care and social assistance-16,job-train-Health care and social assistance-16,Health care and social assistance,Data Analyst,clinical reporting,I have no experience with clinical reporting.,no evidence found
+train,cv-train-Health care and social assistance-17,job-train-Health care and social assistance-17,Health care and social assistance,Data Analyst,SQL,I used SQL on a project.,evidence found
+train,cv-train-Health care and social assistance-17,job-train-Health care and social assistance-17,Health care and social assistance,Data Analyst,data analysis,"My team did data analysis, but my role was administrative.",unclear
+train,cv-train-Health care and social assistance-17,job-train-Health care and social assistance-17,Health care and social assistance,Data Analyst,data visualization,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Health care and social assistance-17,job-train-Health care and social assistance-17,Health care and social assistance,Data Analyst,clinical reporting,"My team did clinical reporting, but my role was administrative.",unclear
+train,cv-train-Health care and social assistance-18,job-train-Health care and social assistance-18,Health care and social assistance,Data Analyst,SQL,I am interested in learning SQL.,unclear
+train,cv-train-Health care and social assistance-18,job-train-Health care and social assistance-18,Health care and social assistance,Data Analyst,data analysis,I used data analysis on a project.,evidence found
+train,cv-train-Health care and social assistance-18,job-train-Health care and social assistance-18,Health care and social assistance,Data Analyst,data visualization,I have no experience with data visualization.,no evidence found
+train,cv-train-Health care and social assistance-18,job-train-Health care and social assistance-18,Health care and social assistance,Data Analyst,clinical reporting,I used clinical reporting on a project.,evidence found
+train,cv-train-Health care and social assistance-19,job-train-Health care and social assistance-19,Health care and social assistance,Data Analyst,SQL,I have no experience with SQL.,no evidence found
+train,cv-train-Health care and social assistance-19,job-train-Health care and social assistance-19,Health care and social assistance,Data Analyst,data analysis,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Health care and social assistance-19,job-train-Health care and social assistance-19,Health care and social assistance,Data Analyst,data visualization,I am interested in learning data visualization.,unclear
+train,cv-train-Health care and social assistance-19,job-train-Health care and social assistance-19,Health care and social assistance,Data Analyst,clinical reporting,I independently prepared hospital indicators.,evidence found
+train,cv-train-Health care and social assistance-20,job-train-Health care and social assistance-20,Health care and social assistance,Data Analyst,SQL,I am interested in learning SQL.,unclear
+train,cv-train-Health care and social assistance-20,job-train-Health care and social assistance-20,Health care and social assistance,Data Analyst,data analysis,I used data analysis on a project.,evidence found
+train,cv-train-Health care and social assistance-20,job-train-Health care and social assistance-20,Health care and social assistance,Data Analyst,data visualization,"My team did data visualization, but my role was administrative.",unclear
+train,cv-train-Health care and social assistance-20,job-train-Health care and social assistance-20,Health care and social assistance,Data Analyst,clinical reporting,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Health care and social assistance-21,job-train-Health care and social assistance-21,Health care and social assistance,Data Analyst,SQL,I have no experience with SQL.,no evidence found
+train,cv-train-Health care and social assistance-21,job-train-Health care and social assistance-21,Health care and social assistance,Data Analyst,data analysis,I used data analysis on a project.,evidence found
+train,cv-train-Health care and social assistance-21,job-train-Health care and social assistance-21,Health care and social assistance,Data Analyst,data visualization,"My team did data visualization, but my role was administrative.",unclear
+train,cv-train-Health care and social assistance-21,job-train-Health care and social assistance-21,Health care and social assistance,Data Analyst,clinical reporting,I independently summarized patient metrics.,evidence found
+train,cv-train-Health care and social assistance-22,job-train-Health care and social assistance-22,Health care and social assistance,Data Analyst,SQL,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Health care and social assistance-22,job-train-Health care and social assistance-22,Health care and social assistance,Data Analyst,data analysis,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Health care and social assistance-22,job-train-Health care and social assistance-22,Health care and social assistance,Data Analyst,data visualization,I independently designed dashboards.,evidence found
+train,cv-train-Health care and social assistance-22,job-train-Health care and social assistance-22,Health care and social assistance,Data Analyst,clinical reporting,"My team did clinical reporting, but my role was administrative.",unclear
+train,cv-train-Health care and social assistance-23,job-train-Health care and social assistance-23,Health care and social assistance,Data Analyst,SQL,I independently joined database tables.,evidence found
+train,cv-train-Health care and social assistance-23,job-train-Health care and social assistance-23,Health care and social assistance,Data Analyst,data analysis,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Health care and social assistance-23,job-train-Health care and social assistance-23,Health care and social assistance,Data Analyst,data visualization,I am interested in learning data visualization.,unclear
+train,cv-train-Health care and social assistance-23,job-train-Health care and social assistance-23,Health care and social assistance,Data Analyst,clinical reporting,"My team did clinical reporting, but my role was administrative.",unclear
+train,cv-train-Health care and social assistance-24,job-train-Health care and social assistance-24,Health care and social assistance,Data Analyst,SQL,I independently queried relational databases.,evidence found
+train,cv-train-Health care and social assistance-24,job-train-Health care and social assistance-24,Health care and social assistance,Data Analyst,data analysis,"My team did data analysis, but my role was administrative.",unclear
+train,cv-train-Health care and social assistance-24,job-train-Health care and social assistance-24,Health care and social assistance,Data Analyst,data visualization,I used data visualization on a project.,evidence found
+train,cv-train-Health care and social assistance-24,job-train-Health care and social assistance-24,Health care and social assistance,Data Analyst,clinical reporting,I have no experience with clinical reporting.,no evidence found
+train,cv-train-Health care and social assistance-25,job-train-Health care and social assistance-25,Health care and social assistance,Data Analyst,SQL,I independently queried relational databases.,evidence found
+train,cv-train-Health care and social assistance-25,job-train-Health care and social assistance-25,Health care and social assistance,Data Analyst,data analysis,I have no experience with data analysis.,no evidence found
+train,cv-train-Health care and social assistance-25,job-train-Health care and social assistance-25,Health care and social assistance,Data Analyst,data visualization,I have no experience with data visualization.,no evidence found
+train,cv-train-Health care and social assistance-25,job-train-Health care and social assistance-25,Health care and social assistance,Data Analyst,clinical reporting,"My team did clinical reporting, but my role was administrative.",unclear
+train,cv-train-Health care and social assistance-26,job-train-Health care and social assistance-26,Health care and social assistance,Data Analyst,SQL,I independently queried relational databases.,evidence found
+train,cv-train-Health care and social assistance-26,job-train-Health care and social assistance-26,Health care and social assistance,Data Analyst,data analysis,I have no experience with data analysis.,no evidence found
+train,cv-train-Health care and social assistance-26,job-train-Health care and social assistance-26,Health care and social assistance,Data Analyst,data visualization,I am interested in learning data visualization.,unclear
+train,cv-train-Health care and social assistance-26,job-train-Health care and social assistance-26,Health care and social assistance,Data Analyst,clinical reporting,I am interested in learning clinical reporting.,unclear
+train,cv-train-Health care and social assistance-27,job-train-Health care and social assistance-27,Health care and social assistance,Data Analyst,SQL,I independently joined database tables.,evidence found
+train,cv-train-Health care and social assistance-27,job-train-Health care and social assistance-27,Health care and social assistance,Data Analyst,data analysis,I independently interpreted performance measures.,evidence found
+train,cv-train-Health care and social assistance-27,job-train-Health care and social assistance-27,Health care and social assistance,Data Analyst,data visualization,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Health care and social assistance-27,job-train-Health care and social assistance-27,Health care and social assistance,Data Analyst,clinical reporting,"My team did clinical reporting, but my role was administrative.",unclear
+train,cv-train-Health care and social assistance-28,job-train-Health care and social assistance-28,Health care and social assistance,Data Analyst,SQL,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Health care and social assistance-28,job-train-Health care and social assistance-28,Health care and social assistance,Data Analyst,data analysis,I have no experience with data analysis.,no evidence found
+train,cv-train-Health care and social assistance-28,job-train-Health care and social assistance-28,Health care and social assistance,Data Analyst,data visualization,I am interested in learning data visualization.,unclear
+train,cv-train-Health care and social assistance-28,job-train-Health care and social assistance-28,Health care and social assistance,Data Analyst,clinical reporting,I independently prepared hospital indicators.,evidence found
+train,cv-train-Health care and social assistance-29,job-train-Health care and social assistance-29,Health care and social assistance,Data Analyst,SQL,I am interested in learning SQL.,unclear
+train,cv-train-Health care and social assistance-29,job-train-Health care and social assistance-29,Health care and social assistance,Data Analyst,data analysis,I have no experience with data analysis.,no evidence found
+train,cv-train-Health care and social assistance-29,job-train-Health care and social assistance-29,Health care and social assistance,Data Analyst,data visualization,I am interested in learning data visualization.,unclear
+train,cv-train-Health care and social assistance-29,job-train-Health care and social assistance-29,Health care and social assistance,Data Analyst,clinical reporting,I independently summarized patient metrics.,evidence found
+train,cv-train-Manufacturing-00,job-train-Manufacturing-00,Manufacturing,Data Analyst,SQL,I used SQL on a project.,evidence found
+train,cv-train-Manufacturing-00,job-train-Manufacturing-00,Manufacturing,Data Analyst,data analysis,I have no experience with data analysis.,no evidence found
+train,cv-train-Manufacturing-00,job-train-Manufacturing-00,Manufacturing,Data Analyst,data visualization,"My team did data visualization, but my role was administrative.",unclear
+train,cv-train-Manufacturing-00,job-train-Manufacturing-00,Manufacturing,Data Analyst,quality analysis,I independently measured production variation.,evidence found
+train,cv-train-Manufacturing-01,job-train-Manufacturing-01,Manufacturing,Data Analyst,SQL,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Manufacturing-01,job-train-Manufacturing-01,Manufacturing,Data Analyst,data analysis,I have no experience with data analysis.,no evidence found
+train,cv-train-Manufacturing-01,job-train-Manufacturing-01,Manufacturing,Data Analyst,data visualization,I independently built graphical reports.,evidence found
+train,cv-train-Manufacturing-01,job-train-Manufacturing-01,Manufacturing,Data Analyst,quality analysis,I am interested in learning quality analysis.,unclear
+train,cv-train-Manufacturing-02,job-train-Manufacturing-02,Manufacturing,Data Analyst,SQL,I am interested in learning SQL.,unclear
+train,cv-train-Manufacturing-02,job-train-Manufacturing-02,Manufacturing,Data Analyst,data analysis,I am interested in learning data analysis.,unclear
+train,cv-train-Manufacturing-02,job-train-Manufacturing-02,Manufacturing,Data Analyst,data visualization,I used data visualization on a project.,evidence found
+train,cv-train-Manufacturing-02,job-train-Manufacturing-02,Manufacturing,Data Analyst,quality analysis,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Manufacturing-03,job-train-Manufacturing-03,Manufacturing,Data Analyst,SQL,I independently queried relational databases.,evidence found
+train,cv-train-Manufacturing-03,job-train-Manufacturing-03,Manufacturing,Data Analyst,data analysis,I have no experience with data analysis.,no evidence found
+train,cv-train-Manufacturing-03,job-train-Manufacturing-03,Manufacturing,Data Analyst,data visualization,I used data visualization on a project.,evidence found
+train,cv-train-Manufacturing-03,job-train-Manufacturing-03,Manufacturing,Data Analyst,quality analysis,I am interested in learning quality analysis.,unclear
+train,cv-train-Manufacturing-04,job-train-Manufacturing-04,Manufacturing,Data Analyst,SQL,I have no experience with SQL.,no evidence found
+train,cv-train-Manufacturing-04,job-train-Manufacturing-04,Manufacturing,Data Analyst,data analysis,"My team did data analysis, but my role was administrative.",unclear
+train,cv-train-Manufacturing-04,job-train-Manufacturing-04,Manufacturing,Data Analyst,data visualization,I independently built graphical reports.,evidence found
+train,cv-train-Manufacturing-04,job-train-Manufacturing-04,Manufacturing,Data Analyst,quality analysis,I have no experience with quality analysis.,no evidence found
+train,cv-train-Manufacturing-05,job-train-Manufacturing-05,Manufacturing,Data Analyst,SQL,I independently queried relational databases.,evidence found
+train,cv-train-Manufacturing-05,job-train-Manufacturing-05,Manufacturing,Data Analyst,data analysis,I have no experience with data analysis.,no evidence found
+train,cv-train-Manufacturing-05,job-train-Manufacturing-05,Manufacturing,Data Analyst,data visualization,I am interested in learning data visualization.,unclear
+train,cv-train-Manufacturing-05,job-train-Manufacturing-05,Manufacturing,Data Analyst,quality analysis,I am interested in learning quality analysis.,unclear
+train,cv-train-Manufacturing-06,job-train-Manufacturing-06,Manufacturing,Data Analyst,SQL,I am interested in learning SQL.,unclear
+train,cv-train-Manufacturing-06,job-train-Manufacturing-06,Manufacturing,Data Analyst,data analysis,I used data analysis on a project.,evidence found
+train,cv-train-Manufacturing-06,job-train-Manufacturing-06,Manufacturing,Data Analyst,data visualization,I independently built graphical reports.,evidence found
+train,cv-train-Manufacturing-06,job-train-Manufacturing-06,Manufacturing,Data Analyst,quality analysis,I have no experience with quality analysis.,no evidence found
+train,cv-train-Manufacturing-07,job-train-Manufacturing-07,Manufacturing,Data Analyst,SQL,I independently joined database tables.,evidence found
+train,cv-train-Manufacturing-07,job-train-Manufacturing-07,Manufacturing,Data Analyst,data analysis,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Manufacturing-07,job-train-Manufacturing-07,Manufacturing,Data Analyst,data visualization,I have no experience with data visualization.,no evidence found
+train,cv-train-Manufacturing-07,job-train-Manufacturing-07,Manufacturing,Data Analyst,quality analysis,"My team did quality analysis, but my role was administrative.",unclear
+train,cv-train-Manufacturing-08,job-train-Manufacturing-08,Manufacturing,Data Analyst,SQL,I have no experience with SQL.,no evidence found
+train,cv-train-Manufacturing-08,job-train-Manufacturing-08,Manufacturing,Data Analyst,data analysis,I am interested in learning data analysis.,unclear
+train,cv-train-Manufacturing-08,job-train-Manufacturing-08,Manufacturing,Data Analyst,data visualization,"My team did data visualization, but my role was administrative.",unclear
+train,cv-train-Manufacturing-08,job-train-Manufacturing-08,Manufacturing,Data Analyst,quality analysis,I independently investigated defects.,evidence found
+train,cv-train-Manufacturing-09,job-train-Manufacturing-09,Manufacturing,Data Analyst,SQL,I used SQL on a project.,evidence found
+train,cv-train-Manufacturing-09,job-train-Manufacturing-09,Manufacturing,Data Analyst,data analysis,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Manufacturing-09,job-train-Manufacturing-09,Manufacturing,Data Analyst,data visualization,"My team did data visualization, but my role was administrative.",unclear
+train,cv-train-Manufacturing-09,job-train-Manufacturing-09,Manufacturing,Data Analyst,quality analysis,I used quality analysis on a project.,evidence found
+train,cv-train-Manufacturing-10,job-train-Manufacturing-10,Manufacturing,Data Analyst,SQL,I independently joined database tables.,evidence found
+train,cv-train-Manufacturing-10,job-train-Manufacturing-10,Manufacturing,Data Analyst,data analysis,I have no experience with data analysis.,no evidence found
+train,cv-train-Manufacturing-10,job-train-Manufacturing-10,Manufacturing,Data Analyst,data visualization,I have no experience with data visualization.,no evidence found
+train,cv-train-Manufacturing-10,job-train-Manufacturing-10,Manufacturing,Data Analyst,quality analysis,"My team did quality analysis, but my role was administrative.",unclear
+train,cv-train-Manufacturing-11,job-train-Manufacturing-11,Manufacturing,Data Analyst,SQL,"My team did SQL, but my role was administrative.",unclear
+train,cv-train-Manufacturing-11,job-train-Manufacturing-11,Manufacturing,Data Analyst,data analysis,I am interested in learning data analysis.,unclear
+train,cv-train-Manufacturing-11,job-train-Manufacturing-11,Manufacturing,Data Analyst,data visualization,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Manufacturing-11,job-train-Manufacturing-11,Manufacturing,Data Analyst,quality analysis,I independently investigated defects.,evidence found
+train,cv-train-Manufacturing-12,job-train-Manufacturing-12,Manufacturing,Data Analyst,SQL,"My team did SQL, but my role was administrative.",unclear
+train,cv-train-Manufacturing-12,job-train-Manufacturing-12,Manufacturing,Data Analyst,data analysis,I independently examined operational datasets.,evidence found
+train,cv-train-Manufacturing-12,job-train-Manufacturing-12,Manufacturing,Data Analyst,data visualization,I used data visualization on a project.,evidence found
+train,cv-train-Manufacturing-12,job-train-Manufacturing-12,Manufacturing,Data Analyst,quality analysis,I have no experience with quality analysis.,no evidence found
+train,cv-train-Manufacturing-13,job-train-Manufacturing-13,Manufacturing,Data Analyst,SQL,I have no experience with SQL.,no evidence found
+train,cv-train-Manufacturing-13,job-train-Manufacturing-13,Manufacturing,Data Analyst,data analysis,I have no experience with data analysis.,no evidence found
+train,cv-train-Manufacturing-13,job-train-Manufacturing-13,Manufacturing,Data Analyst,data visualization,I am interested in learning data visualization.,unclear
+train,cv-train-Manufacturing-13,job-train-Manufacturing-13,Manufacturing,Data Analyst,quality analysis,I independently measured production variation.,evidence found
+train,cv-train-Manufacturing-14,job-train-Manufacturing-14,Manufacturing,Data Analyst,SQL,I independently queried relational databases.,evidence found
+train,cv-train-Manufacturing-14,job-train-Manufacturing-14,Manufacturing,Data Analyst,data analysis,"My team did data analysis, but my role was administrative.",unclear
+train,cv-train-Manufacturing-14,job-train-Manufacturing-14,Manufacturing,Data Analyst,data visualization,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Manufacturing-14,job-train-Manufacturing-14,Manufacturing,Data Analyst,quality analysis,I am interested in learning quality analysis.,unclear
+train,cv-train-Manufacturing-15,job-train-Manufacturing-15,Manufacturing,Data Analyst,SQL,I independently queried relational databases.,evidence found
+train,cv-train-Manufacturing-15,job-train-Manufacturing-15,Manufacturing,Data Analyst,data analysis,I independently interpreted performance measures.,evidence found
+train,cv-train-Manufacturing-15,job-train-Manufacturing-15,Manufacturing,Data Analyst,data visualization,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Manufacturing-15,job-train-Manufacturing-15,Manufacturing,Data Analyst,quality analysis,"My team did quality analysis, but my role was administrative.",unclear
+train,cv-train-Manufacturing-16,job-train-Manufacturing-16,Manufacturing,Data Analyst,SQL,I independently joined database tables.,evidence found
+train,cv-train-Manufacturing-16,job-train-Manufacturing-16,Manufacturing,Data Analyst,data analysis,I have no experience with data analysis.,no evidence found
+train,cv-train-Manufacturing-16,job-train-Manufacturing-16,Manufacturing,Data Analyst,data visualization,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Manufacturing-16,job-train-Manufacturing-16,Manufacturing,Data Analyst,quality analysis,"My team did quality analysis, but my role was administrative.",unclear
+train,cv-train-Manufacturing-17,job-train-Manufacturing-17,Manufacturing,Data Analyst,SQL,I independently joined database tables.,evidence found
+train,cv-train-Manufacturing-17,job-train-Manufacturing-17,Manufacturing,Data Analyst,data analysis,I have no experience with data analysis.,no evidence found
+train,cv-train-Manufacturing-17,job-train-Manufacturing-17,Manufacturing,Data Analyst,data visualization,I am interested in learning data visualization.,unclear
+train,cv-train-Manufacturing-17,job-train-Manufacturing-17,Manufacturing,Data Analyst,quality analysis,"My team did quality analysis, but my role was administrative.",unclear
+train,cv-train-Manufacturing-18,job-train-Manufacturing-18,Manufacturing,Data Analyst,SQL,I am interested in learning SQL.,unclear
+train,cv-train-Manufacturing-18,job-train-Manufacturing-18,Manufacturing,Data Analyst,data analysis,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Manufacturing-18,job-train-Manufacturing-18,Manufacturing,Data Analyst,data visualization,I used data visualization on a project.,evidence found
+train,cv-train-Manufacturing-18,job-train-Manufacturing-18,Manufacturing,Data Analyst,quality analysis,I independently measured production variation.,evidence found
+train,cv-train-Manufacturing-19,job-train-Manufacturing-19,Manufacturing,Data Analyst,SQL,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Manufacturing-19,job-train-Manufacturing-19,Manufacturing,Data Analyst,data analysis,I independently interpreted performance measures.,evidence found
+train,cv-train-Manufacturing-19,job-train-Manufacturing-19,Manufacturing,Data Analyst,data visualization,I am interested in learning data visualization.,unclear
+train,cv-train-Manufacturing-19,job-train-Manufacturing-19,Manufacturing,Data Analyst,quality analysis,I have no experience with quality analysis.,no evidence found
+train,cv-train-Manufacturing-20,job-train-Manufacturing-20,Manufacturing,Data Analyst,SQL,"My team did SQL, but my role was administrative.",unclear
+train,cv-train-Manufacturing-20,job-train-Manufacturing-20,Manufacturing,Data Analyst,data analysis,I used data analysis on a project.,evidence found
+train,cv-train-Manufacturing-20,job-train-Manufacturing-20,Manufacturing,Data Analyst,data visualization,I am interested in learning data visualization.,unclear
+train,cv-train-Manufacturing-20,job-train-Manufacturing-20,Manufacturing,Data Analyst,quality analysis,I have no experience with quality analysis.,no evidence found
+train,cv-train-Manufacturing-21,job-train-Manufacturing-21,Manufacturing,Data Analyst,SQL,I independently joined database tables.,evidence found
+train,cv-train-Manufacturing-21,job-train-Manufacturing-21,Manufacturing,Data Analyst,data analysis,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Manufacturing-21,job-train-Manufacturing-21,Manufacturing,Data Analyst,data visualization,I used data visualization on a project.,evidence found
+train,cv-train-Manufacturing-21,job-train-Manufacturing-21,Manufacturing,Data Analyst,quality analysis,I am interested in learning quality analysis.,unclear
+train,cv-train-Manufacturing-22,job-train-Manufacturing-22,Manufacturing,Data Analyst,SQL,I am interested in learning SQL.,unclear
+train,cv-train-Manufacturing-22,job-train-Manufacturing-22,Manufacturing,Data Analyst,data analysis,I have no experience with data analysis.,no evidence found
+train,cv-train-Manufacturing-22,job-train-Manufacturing-22,Manufacturing,Data Analyst,data visualization,I independently built graphical reports.,evidence found
+train,cv-train-Manufacturing-22,job-train-Manufacturing-22,Manufacturing,Data Analyst,quality analysis,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Manufacturing-23,job-train-Manufacturing-23,Manufacturing,Data Analyst,SQL,I am interested in learning SQL.,unclear
+train,cv-train-Manufacturing-23,job-train-Manufacturing-23,Manufacturing,Data Analyst,data analysis,"My team did data analysis, but my role was administrative.",unclear
+train,cv-train-Manufacturing-23,job-train-Manufacturing-23,Manufacturing,Data Analyst,data visualization,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Manufacturing-23,job-train-Manufacturing-23,Manufacturing,Data Analyst,quality analysis,I independently measured production variation.,evidence found
+train,cv-train-Manufacturing-24,job-train-Manufacturing-24,Manufacturing,Data Analyst,SQL,I independently queried relational databases.,evidence found
+train,cv-train-Manufacturing-24,job-train-Manufacturing-24,Manufacturing,Data Analyst,data analysis,I have no experience with data analysis.,no evidence found
+train,cv-train-Manufacturing-24,job-train-Manufacturing-24,Manufacturing,Data Analyst,data visualization,I independently built graphical reports.,evidence found
+train,cv-train-Manufacturing-24,job-train-Manufacturing-24,Manufacturing,Data Analyst,quality analysis,"My team did quality analysis, but my role was administrative.",unclear
+train,cv-train-Manufacturing-25,job-train-Manufacturing-25,Manufacturing,Data Analyst,SQL,I am interested in learning SQL.,unclear
+train,cv-train-Manufacturing-25,job-train-Manufacturing-25,Manufacturing,Data Analyst,data analysis,I independently examined operational datasets.,evidence found
+train,cv-train-Manufacturing-25,job-train-Manufacturing-25,Manufacturing,Data Analyst,data visualization,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Manufacturing-25,job-train-Manufacturing-25,Manufacturing,Data Analyst,quality analysis,I have no experience with quality analysis.,no evidence found
+train,cv-train-Manufacturing-26,job-train-Manufacturing-26,Manufacturing,Data Analyst,SQL,I am interested in learning SQL.,unclear
+train,cv-train-Manufacturing-26,job-train-Manufacturing-26,Manufacturing,Data Analyst,data analysis,I independently examined operational datasets.,evidence found
+train,cv-train-Manufacturing-26,job-train-Manufacturing-26,Manufacturing,Data Analyst,data visualization,"My team did data visualization, but my role was administrative.",unclear
+train,cv-train-Manufacturing-26,job-train-Manufacturing-26,Manufacturing,Data Analyst,quality analysis,I have no experience with quality analysis.,no evidence found
+train,cv-train-Manufacturing-27,job-train-Manufacturing-27,Manufacturing,Data Analyst,SQL,I used SQL on a project.,evidence found
+train,cv-train-Manufacturing-27,job-train-Manufacturing-27,Manufacturing,Data Analyst,data analysis,I have no experience with data analysis.,no evidence found
+train,cv-train-Manufacturing-27,job-train-Manufacturing-27,Manufacturing,Data Analyst,data visualization,I independently designed dashboards.,evidence found
+train,cv-train-Manufacturing-27,job-train-Manufacturing-27,Manufacturing,Data Analyst,quality analysis,"My team did quality analysis, but my role was administrative.",unclear
+train,cv-train-Manufacturing-28,job-train-Manufacturing-28,Manufacturing,Data Analyst,SQL,I used SQL on a project.,evidence found
+train,cv-train-Manufacturing-28,job-train-Manufacturing-28,Manufacturing,Data Analyst,data analysis,I have no experience with data analysis.,no evidence found
+train,cv-train-Manufacturing-28,job-train-Manufacturing-28,Manufacturing,Data Analyst,data visualization,I have no experience with data visualization.,no evidence found
+train,cv-train-Manufacturing-28,job-train-Manufacturing-28,Manufacturing,Data Analyst,quality analysis,"My team did quality analysis, but my role was administrative.",unclear
+train,cv-train-Manufacturing-29,job-train-Manufacturing-29,Manufacturing,Data Analyst,SQL,I am interested in learning SQL.,unclear
+train,cv-train-Manufacturing-29,job-train-Manufacturing-29,Manufacturing,Data Analyst,data analysis,My work was limited to scheduling meetings.,no evidence found
+train,cv-train-Manufacturing-29,job-train-Manufacturing-29,Manufacturing,Data Analyst,data visualization,I independently built graphical reports.,evidence found
+train,cv-train-Manufacturing-29,job-train-Manufacturing-29,Manufacturing,Data Analyst,quality analysis,I am interested in learning quality analysis.,unclear
