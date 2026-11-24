@@ -67,9 +67,16 @@ li { margin-bottom: 6px; overflow-wrap: anywhere; }
 <label for="candidate">Name</label><input id="candidate" autocomplete="name">
 <label for="contact">Contact details</label><input id="contact" autocomplete="email">
 <label for="summary">Professional summary</label><textarea id="summary"></textarea>
-<label for="experience">Experience and achievements</label><textarea id="experience"></textarea>
+<label for="experience">Work and project experience</label>
+<textarea id="experience" aria-describedby="experience-help"></textarea>
+<small id="experience-help">Add jobs, internships, volunteer work, or projects. Describe what you did and the results.</small>
 <label for="skills">Skills</label><textarea id="skills"></textarea>
-<label for="education">Education and training</label><textarea id="education"></textarea>
+<label for="education">Educational background</label>
+<textarea id="education" aria-describedby="education-help"></textarea>
+<small id="education-help">Add degrees or diplomas, institutions, dates, and relevant coursework.</small>
+<label for="training">Training and certifications</label>
+<textarea id="training" aria-describedby="training-help"></textarea>
+<small id="training-help">Add relevant courses, licenses, or certifications.</small>
 <small>Your entries stay in this page. Printing or saving to PDF creates a copy on your device.</small>
 <div class="actions"><button id="example" type="button" class="secondary">Try an example</button><button type="reset" class="secondary">Clear CV</button></div>
 </form>
@@ -129,7 +136,13 @@ const profiles = {
   },
 };
 const templateNames = {classic:'Classic', modern:'Modern', editorial:'Editorial', compact:'Compact'};
-const sections = {summary:'Professional summary', experience:'Experience', skills:'Skills', education:'Education and training'};
+const sections = {
+  summary: 'Professional summary',
+  experience: 'Work and project experience',
+  skills: 'Skills',
+  education: 'Educational background',
+  training: 'Training and certifications',
+};
 const industryCategories = {
   'Health Care and Social Assistance': ['Health care and social assistance'],
   'Finance, Insurance and Real Estate': ['Finance and insurance', 'Real estate and rental and leasing'],
@@ -298,6 +311,7 @@ el('example').addEventListener('click', () => {
   el('experience').value = 'Used SQL for data analysis and built Power BI dashboards to monitor service performance.';
   el('skills').value = 'SQL, Power BI, data analysis';
   el('education').value = 'BSc in Information Systems';
+  el('training').value = 'Applied Statistics Workshop';
   industryCategory.selectedIndex = 0;
   occupationGroup.value = '';
   position.value = 'Data Analyst';
