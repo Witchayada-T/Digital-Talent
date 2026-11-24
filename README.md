@@ -1,0 +1,9 @@
+# Résumé Studio
+
+[Open the browser demo on GitHub Pages](https://witchayada-t.github.io/Digital-Talent/)
+
+The demo link works once GitHub Pages is enabled for this repository. In **Settings → Pages**, select **Deploy from a branch**, then **main** and **/ (root)**.
+
+Choose a résumé template, enter CV details, and type a job title under an industry category. Check keyword coverage for the job posting, review the depth of each match, and see which skills could use a more specific or advanced example.
+
+Open **Try an entry, mid, or senior example** for three fictional cases. Use **Print résumé** to choose a printer or Save as PDF. CV text is processed in the browser.
