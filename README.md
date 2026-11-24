@@ -6,4 +6,4 @@ The demo link works once GitHub Pages is enabled for this repository. In **Setti
 
 Choose a résumé template, enter CV details, and type a job title under an industry category. Check keyword coverage for the job posting, review the depth of each match, and see which skills could use a more specific or advanced example.
 
-Open **Try an entry, mid, or senior example** for three fictional cases. Use **Print résumé** to choose a printer or Save as PDF. CV text is processed in the browser.
+Choose a career level and click **Try an example** for a complete fictional CV. Add structured entries with dates and achievement bullets, and choose which CV section comes first. Use **Print résumé** to choose a printer or Save as PDF. CV text is processed in the browser.
