@@ -3,75 +3,97 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Digital Talent | CV Skill Match</title>
+<title>Digital Talent | Résumé Studio</title>
 <style>
-:root { font-family: system-ui, sans-serif; color: #142e2b; background: #f1f5ef; line-height: 1.5; }
+:root { font-family: system-ui, sans-serif; color: #202444; background: #eeeffb; line-height: 1.5; }
 * { box-sizing: border-box; }
 body { margin: 0; }
-main { max-width: 1080px; padding: 52px 24px; margin: auto; }
-header { max-width: 720px; margin-bottom: 30px; }
-h1 { font-family: Georgia, serif; font-size: clamp(2.6rem, 7vw, 5rem); line-height: 1; margin: 10px 0 16px; font-weight: 500; }
-h2 { margin: 0 0 16px; font-size: 1.3rem; }
-small, p { color: #465e58; }
-header strong { text-transform: uppercase; font-size: .78rem; letter-spacing: .15em; }
-.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: start; }
-.card { padding: clamp(18px, 4vw, 32px); background: white; border: 1px solid #cad9cf; border-radius: 18px; }
-label { display: block; font-weight: 650; margin-top: 14px; }
-select, textarea { font: inherit; color: inherit; background: #f8faf7; border: 1px solid #829b90; border-radius: 8px; padding: 10px 12px; width: 100%; margin-top: 5px; }
-textarea { resize: vertical; min-height: 145px; }
-.actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 18px; }
-button { font: inherit; font-weight: 650; background: #174e41; border: 1px solid #174e41; color: white; border-radius: 8px; padding: 10px 14px; cursor: pointer; }
-button.secondary { background: white; color: #174e41; }
-:focus-visible { outline: 3px solid #276cba; outline-offset: 3px; }
-.score { display: block; font-size: 3.5rem; font-weight: 700; letter-spacing: -.06em; line-height: 1; }
-meter { width: 100%; height: 12px; margin-top: 10px; }
-ul { padding: 0; list-style: none; }
-li { padding: 9px 0; border-top: 1px solid #dce6de; overflow-wrap: anywhere; }
-li small { display: block; }
-.research { max-width: 760px; margin-top: 24px; }
-.research h2 { margin-bottom: 6px; }
-.research p { margin: 0; }
-.research p + h2 { margin-top: 16px; }
-summary { cursor: pointer; font-weight: 650; }
-@media (max-width: 700px) { main { padding-top: 32px; } .grid { grid-template-columns: 1fr; } }
+header { background: #272655; color: #fff; }
+.wrap { max-width: 1180px; margin: auto; padding: 30px 24px; }
+.hero { padding-block: 42px 51px; }
+.brand { color: #f8dd94; font-weight: 700; }
+h1 { font: 500 clamp(2.7rem, 7vw, 5.5rem)/1 Georgia, serif; margin: 14px 0; }
+h2 { margin: 0 0 10px; font-size: 1.25rem; }
+p { margin: 0 0 15px; }
+.gallery { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 16px 0 30px; }
+.template { background: #fff; color: inherit; border: 1px solid #c4c5df; padding: 12px; text-align: left; }
+.template[aria-pressed="true"] { outline: 2px solid #5250a3; outline-offset: -2px; }
+.swatch { display: block; height: 75px; margin-bottom: 9px; background: repeating-linear-gradient(to bottom,#bdc0df 0 2px,transparent 2px 11px) content-box,#f7f7fc; border: 1px solid #dedff2; padding: 22px 16px 12px; }
+.swatch.modern { border-left: 13px solid #514aac; }
+.swatch.editorial { border-top: 11px solid #b56646; }
+.swatch.compact { border-left: 5px double #557765; padding: 14px 30px 10px 12px; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; align-items: start; }
+.card { background: #fff; border: 1px solid #d5d6eb; border-radius: 14px; padding: clamp(16px, 3vw, 27px); margin-bottom: 18px; }
+label { display: block; font-weight: 650; margin-top: 10px; }
+input, select, textarea { width: 100%; margin-top: 4px; border: 1px solid #9398b8; padding: 8px 10px; font: inherit; border-radius: 6px; color: inherit; background: #fafaff; }
+textarea { min-height: 80px; resize: vertical; }
+button { font: inherit; font-weight: 650; border: 1px solid #403b89; background: #403b89; color: white; padding: 8px 12px; border-radius: 7px; cursor: pointer; }
+.secondary { background: white; color: #35316e; }
+.actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px; }
+:focus-visible { outline: 3px solid #8c4c1e; outline-offset: 3px; }
+.paper { background: white; border: 1px solid #dadbea; padding: 24px; overflow-wrap: anywhere; }
+.paper h3 { margin: 0; font: 500 1.85rem Georgia, serif; }
+.paper h4 { margin: 15px 0 2px; border-bottom: 1px solid #d5d6eb; }
+.paper p { white-space: pre-wrap; margin: 0; }
+.paper.modern { border-left: 14px solid #514aac; }
+.paper.editorial { border-top: 10px solid #b56646; }
+.paper.editorial h3 { font-style: italic; }
+.paper.compact { border-left: 5px double #557765; padding: 14px; }
+.paper.compact h3 { font: 700 1.4rem system-ui; }
+.paper.compact h4 { margin-top: 8px; }
+small { color: #4d5174; }
+#score { font-size: 1.5rem; font-weight: 700; margin-top: 12px; }
+ul { padding-left: 22px; }
+li { margin-bottom: 6px; overflow-wrap: anywhere; }
+@media(max-width:720px){ .grid { grid-template-columns: 1fr; } .gallery { grid-template-columns: 1fr 1fr; } }
+@media print {
+  header, main > :not(.grid), .grid > :not(.preview), .preview > :not(.paper) { display: none; }
+  .wrap, .grid, .card.preview { display: block; padding: 0; margin: 0; max-width: none; border: 0; }
+  .paper { border-color: transparent; print-color-adjust: exact; }
+  .paper section { break-inside: avoid; }
+}
 </style>
 </head>
 <body>
-<main>
-<header>
-<strong>Digital Talent</strong>
-<h1>CV Skill Match</h1>
-<p>Check how much evidence your CV gives for the analytical and digital skills in a role within your target industry.</p>
-</header>
+<header><div class="wrap hero"><div class="brand">Digital Talent</div><h1>Résumé Studio</h1><p>Build a résumé and check its skill coverage for your target role.</p></div></header>
+<main class="wrap">
+<h2 id="template-title">Choose a template</h2>
+<div class="gallery" id="templates" role="group" aria-labelledby="template-title"></div>
 <div class="grid">
-<form class="card" id="form">
-<h2>Your application</h2>
-<label for="industry">Target industry</label>
-<select id="industry"></select>
-<label for="role">Target position</label>
-<select id="role"></select>
-<label for="cv">CV skills and experience</label>
-<textarea id="cv" required aria-describedby="privacy" placeholder="Paste your skills and relevant experience here."></textarea>
-<small id="privacy">Leave out contact details. Your text stays in this page.</small>
-<div class="actions"><button type="submit">Check skill match</button><button type="button" class="secondary" id="example">Try an example</button><button type="reset" class="secondary">Clear</button></div>
+<div>
+<form id="editor" class="card">
+<h2>Your CV</h2>
+<label for="candidate">Name</label><input id="candidate" autocomplete="name">
+<label for="contact">Contact details</label><input id="contact" autocomplete="email">
+<label for="summary">Professional summary</label><textarea id="summary"></textarea>
+<label for="experience">Experience and achievements</label><textarea id="experience"></textarea>
+<label for="skills">Skills</label><textarea id="skills"></textarea>
+<label for="education">Education and training</label><textarea id="education"></textarea>
+<small>Your entries stay in this page. Printing or saving to PDF creates a copy on your device.</small>
+<div class="actions"><button id="example" type="button" class="secondary">Try an example</button><button type="reset" class="secondary">Clear CV</button></div>
 </form>
-<section class="card" aria-labelledby="result-title">
-<h2 id="result-title">Skill match</h2>
-<details open><summary>Skills to prepare for this role</summary><ul id="requirements"></ul></details>
-<div id="status" role="status">Select an industry and position, then enter your CV.</div>
-<div id="results" hidden>
-<meter id="meter" min="0" max="100" value="0" aria-label="Skill evidence percentage"></meter>
-<ul id="skills"></ul>
-</div>
-<small>The score uses equally weighted example skills and keyword matching. Review the context of each match. The percentage describes skill coverage only.</small>
+<section class="card" aria-labelledby="target-title">
+<h2 id="target-title">Check a target role</h2>
+<label for="industry">Industry</label><select id="industry"></select>
+<label for="family">Job family</label><select id="family"></select>
+<label for="position">Position</label><select id="position"></select>
+<label for="custom">Skills from a real job posting (optional)</label>
+<textarea id="custom" placeholder="Enter one explicit skill or phrase per line."></textarea>
+<small>Use the posting’s own skill list when available. The defaults are example profiles.</small>
+<h3 id="requirement-title">Skills to demonstrate</h3>
+<ul id="requirements" aria-labelledby="requirement-title"></ul>
+<button type="button" id="evaluate">Check skill coverage</button>
+<div id="score" role="status"></div>
+<ul id="matches" aria-label="Skill check results"></ul>
+<small>Coverage counts keyword matches across equally weighted skills. Review each match in context. An unmentioned skill may still be part of a candidate’s experience.</small>
 </section>
 </div>
-<section class="research" aria-labelledby="research-title">
-<h2 id="research-title">Research question</h2>
-<p>Does the relationship between occupational analytical and digital skill requirements and projected employment growth differ across industries?</p>
-<h2>Application question</h2>
-<p>Which analytical and digital skills should a candidate demonstrate for a specific role in their target industry?</p>
+<section class="card preview" aria-labelledby="preview-title">
+<h2 id="preview-title">Résumé preview</h2>
+<article class="paper" id="paper" aria-label="Printable résumé"></article>
+<div class="actions"><button type="button" id="print">Print / Save PDF</button></div>
 </section>
+</div>
 </main>
 <script>
 const shared = [
@@ -93,92 +115,134 @@ const profiles = {
     'Operations Analyst': [shared[0], ['Process improvement', 'Analytical', ['process improvement', 'lean manufacturing']], ['Production systems', 'Digital', ['manufacturing execution system', 'erp', 'sap']]],
   },
 };
+const templateNames = {classic:'Classic', modern:'Modern', editorial:'Editorial', compact:'Compact'};
+const sections = {summary:'Professional summary', experience:'Experience', skills:'Skills', education:'Education and training'};
+const jobFamilies = {
+  'Data and analytics': ['Data Analyst', 'Reporting Analyst'],
+  'Business operations': ['Operations Analyst', 'Process Improvement Analyst'],
+};
+for (const roles of Object.values(profiles)) {
+  roles['Reporting Analyst'] = [shared[1], shared[2], roles['Data Analyst'][3]];
+  roles['Process Improvement Analyst'] = [
+    ['Process mapping', 'Analytical', ['process mapping', 'workflow mapping']],
+    ...roles['Operations Analyst'].slice(1),
+  ];
+}
 const el = id => document.getElementById(id);
+const editor = el('editor');
+const paper = el('paper');
 const industry = el('industry');
-const role = el('role');
-const cv = el('cv');
-const results = el('results');
-const status = el('status');
-const normalize = text => text.normalize('NFKC').toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
+const family = el('family');
+const position = el('position');
+const custom = el('custom');
+let template = 'classic';
 
+function node(tag, text) {
+  const element = document.createElement(tag);
+  element.textContent = text;
+  return element;
+}
 function options(select, names) {
   select.replaceChildren(...names.map(name => new Option(name, name)));
 }
-function clearResult() {
-  results.hidden = true;
-  status.textContent = 'Select an industry and position, then enter your CV.';
+function renderPreview() {
+  paper.className = 'paper ' + template;
+  paper.replaceChildren(node('h3', el('candidate').value.trim() || 'Your name'));
+  const contact = el('contact').value.trim();
+  if (contact) paper.append(node('p', contact));
+  for (const [id, title] of Object.entries(sections)) {
+    const text = el(id).value.trim();
+    if (!text) continue;
+    const section = document.createElement('section');
+    section.append(node('h4', title), node('p', text));
+    paper.append(section);
+  }
 }
-function currentRequirements() {
-  return profiles[industry.value][role.value];
+function selectTemplate(key) {
+  template = key;
+  for (const button of el('templates').children) {
+    button.setAttribute('aria-pressed', String(button.dataset.template === key));
+  }
+  renderPreview();
 }
-function updateRequirements() {
-  el('requirements').replaceChildren(...currentRequirements().map(([name, category]) => {
-    const item = document.createElement('li');
-    item.textContent = `${name} · ${category}`;
-    return item;
+for (const [key, name] of Object.entries(templateNames)) {
+  const button = node('button', name);
+  button.type = 'button';
+  button.className = 'template';
+  button.dataset.template = key;
+  const swatch = node('span', '');
+  swatch.className = 'swatch ' + key;
+  swatch.setAttribute('aria-hidden', 'true');
+  button.prepend(swatch);
+  button.addEventListener('click', () => selectTemplate(key));
+  el('templates').append(button);
+}
+const normalize = text => text.normalize('NFKC').toLowerCase()
+  .replace(/[^\p{L}\p{N}+#]+/gu, ' ').trim();
+
+function requirements() {
+  const entered = new Map();
+  for (const line of custom.value.split(/\r?\n/)) {
+    const key = normalize(line);
+    if (key && !entered.has(key)) entered.set(key, line.trim());
+  }
+  return entered.size
+    ? [...entered.values()].map(skill => [skill, 'From job posting', [skill]])
+    : profiles[industry.value][position.value];
+}
+function clearResults() {
+  el('score').textContent = '';
+  el('matches').replaceChildren();
+}
+function showRequirements() {
+  el('requirements').replaceChildren(...requirements().map(([name, category]) => node('li', name + ' · ' + category)));
+  clearResults();
+}
+function updatePositions() {
+  options(position, jobFamilies[family.value]);
+  showRequirements();
+}
+function evaluate() {
+  const text = ' ' + Object.keys(sections).map(id => normalize(el(id).value)).filter(Boolean).join('  ') + ' ';
+  if (!text.trim()) {
+    el('score').textContent = 'Add CV details before checking coverage.';
+    return;
+  }
+  const entries = requirements().map(([name, , aliases]) => ({
+    name, evidence: aliases.find(alias => text.includes(' ' + normalize(alias) + ' ')),
   }));
-  clearResult();
-}
-function updateRoles() {
-  options(role, Object.keys(profiles[industry.value]));
-  updateRequirements();
-}
-function score(text, requirements) {
-  const normalized = ` ${normalize(text)} `;
-  const matches = requirements.map(([name, category, aliases]) => ({
-    name, category, evidence: aliases.find(alias => normalized.includes(` ${normalize(alias)} `)),
-  }));
-  const count = matches.filter(match => match.evidence).length;
-  return {matches, count, percent: Math.round(100 * count / requirements.length)};
-}
-function showScore() {
-  if (!cv.reportValidity()) return;
-  const {matches, count, percent} = score(cv.value, currentRequirements());
-  const headline = document.createElement('strong');
-  headline.className = 'score';
-  headline.textContent = percent + '%';
-  status.replaceChildren(headline, document.createTextNode(
-    `${count} of ${matches.length} skills matched for ${role.value} in ${industry.value}.`
-  ));
-  el('meter').value = percent;
-  el('skills').replaceChildren(...matches.map(({name, category, evidence}) => {
-    const item = document.createElement('li');
-    const details = document.createElement('small');
-    details.textContent = evidence
-      ? `${category} · Keyword found: ${evidence}`
-      : `${category} · No keyword found. Review this skill.`;
-    item.append(name, details);
-    return item;
-  }));
-  results.hidden = false;
+  const matched = entries.filter(entry => entry.evidence).length;
+  el('score').textContent = Math.round(100 * matched / entries.length) + '% coverage · ' +
+    matched + ' of ' + entries.length + ' skills';
+  el('matches').replaceChildren(...entries.map(({name,evidence}) =>
+    node('li', name + (evidence ? ' · Keyword found: ' + evidence : ' · Review — keyword absent'))));
 }
 options(industry, Object.keys(profiles));
-updateRoles();
-industry.addEventListener('change', updateRoles);
-role.addEventListener('change', updateRequirements);
-cv.addEventListener('input', () => {
-  cv.setCustomValidity(cv.value.trim() ? '' : 'Enter your CV skills or experience.');
-  clearResult();
-});
-el('form').addEventListener('submit', event => {
-  event.preventDefault();
-  showScore();
-});
-el('form').addEventListener('reset', event => {
-  event.preventDefault();
-  industry.selectedIndex = 0;
-  cv.value = '';
-  cv.setCustomValidity('');
-  updateRoles();
-});
+options(family, Object.keys(jobFamilies));
+selectTemplate(template);
+updatePositions();
+editor.addEventListener('input', () => { renderPreview(); clearResults(); });
+editor.addEventListener('submit', event => event.preventDefault());
+editor.addEventListener('reset', () => queueMicrotask(() => { renderPreview(); clearResults(); }));
+industry.addEventListener('change', showRequirements);
+family.addEventListener('change', updatePositions);
+position.addEventListener('change', showRequirements);
+custom.addEventListener('input', showRequirements);
+el('evaluate').addEventListener('click', evaluate);
+el('print').addEventListener('click', () => window.print());
 el('example').addEventListener('click', () => {
-  industry.value = 'Health care and social assistance';
-  updateRoles();
-  role.value = 'Data Analyst';
-  updateRequirements();
-  cv.value = 'Used SQL for data analysis on operations data and built Power BI dashboards.';
-  cv.setCustomValidity('');
-  showScore();
+  el('candidate').value = 'Alex Morgan';
+  el('contact').value = 'alex@example.com';
+  el('summary').value = 'Data analyst focused on operational performance.';
+  el('experience').value = 'Used SQL for data analysis and built Power BI dashboards to monitor service performance.';
+  el('skills').value = 'SQL, Power BI, data analysis';
+  el('education').value = 'BSc in Information Systems';
+  industry.selectedIndex = 0;
+  family.selectedIndex = 0;
+  custom.value = '';
+  updatePositions();
+  renderPreview();
+  evaluate();
 });
 </script>
 </body>
