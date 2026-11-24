@@ -43,7 +43,16 @@ The [CV evidence notebook](validation/CV_Evidence_Pipeline.ipynb) walks through 
 
 ## Occupation skill groups
 
-The [K-means notebook](notebooks/Occupation_Clustering_K4.ipynb) profiles 910 occupations using 14 standardised O*NET skill Importance scores. It uses **K = 4** to show the resource management and team coordination profile separately. The four groups contain 128, 214, 235 and 333 occupations. The occupation groups are descriptive. The evidence classifier uses only the requirement and excerpt texts.
+The [K-means notebook](notebooks/Occupation_Clustering_K4.ipynb) profiles 910 occupations using 14 standardised O*NET skill Importance scores. It uses **K = 4** to show the Resource and Team Management profile separately. The group names describe skill patterns across occupations.
+
+| Cluster | Occupations |
+| --- | ---: |
+| Resource and Team Management | 128 |
+| Practical Coordination and Judgement | 214 |
+| Equipment Operation and Maintenance | 235 |
+| Problem Solving and Instruction | 333 |
+
+Coordination averages 67.2 in Resource and Team Management and 46.0 in Practical Coordination and Judgement. These are mean Importance ratings. The evidence classifier uses only the requirement and excerpt texts.
 
 - [Occupation and cluster assignments](data/occupation_cluster_assignments.csv)
 - [Skill rankings by cluster](data/cluster_skill_rankings.csv)
