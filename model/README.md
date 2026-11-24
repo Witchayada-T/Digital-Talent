@@ -1,6 +1,6 @@
 # Résumé Studio model
 
-Résumé Studio helps applicants review whether their CV shows evidence for the skills in a job posting. The browser app checks keyword coverage and lets you review the strength of each match. The Python model in this folder is a separate research prototype that classifies a job requirement and one CV excerpt. [Open the browser app](https://witchayada-t.github.io/Digital-Talent/)
+Résumé Studio helps applicants review whether their CV shows evidence for the skills in a job posting. The browser app checks keyword coverage and lets you review the strength of each match. It lists gaps in skills marked essential first. The Python model in this folder is a separate research prototype that classifies a job requirement and one CV excerpt. [Open the browser app](https://witchayada-t.github.io/Digital-Talent/)
 
 ## Try the model
 
